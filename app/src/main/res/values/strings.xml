@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Vendor Hajj Wallet </string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">8FqS2oYV1aJ3xbRREYQmllFbyQm62y48gWKjyLWQ</string>
+    <string name="back4app_client_key">kiNTbjmmaINu4tPyYM8DqXTZWSkycBXDA1IUFLID</string>
+    <string name="hajj_wallet">Hajj Wallet</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">username</string>
+    <string name="nav_header_subtitle">user@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_payment">Payment</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_cashOut">Cash Out</string>
+    <string name="email_address">Email Address</string>
+    <string name="crn_number">CRN Number</string>
+    <string name="remember_password">Remember Password</string>
+    <string name="login_to_account">Login to Account</string>
+    <string name="register">Register?</string>
+    <string name="login">Login</string>
+    <string name="sign_up_account">Sign Up Account</string>
+    <string name="shop_name">Shop Name</string>
+    <string name="location">Location</string>
+
+</resources>
