@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: me.tylerbwong:allaboard:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d6179dd19fc78143698140d3b904d9f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d6179dd19fc78143698140d3b904d9f/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.tylerbwong/allaboard/1.1.0/ed0484485c0ed41de122aed7981a1b368866415e/allaboard-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
