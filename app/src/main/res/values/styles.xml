@@ -1,0 +1,118 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="EditTextTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textColorHint">@color/white</item>
+
+    </style>
+
+    <style name="editTextField">
+        android:layout_width="283dp"
+        android:layout_height="48dp"
+        <item name="android:layout_width">283dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:paddingLeft">10dp</item>
+
+    </style>
+
+
+    <style name="txtInputThem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="buttonConfiguration">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">#2e5f86</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:background">@drawable/btn_background</item>
+
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="InputTextField" parent="editTextField">
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:background">@drawable/form_inputs</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">72dp</item>
+    </style>
+    <style name="subBackgroundStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">30dp</item>
+        <item name="android:background">@drawable/sub_bg</item>
+    </style>
+    <style name="progressBarStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="logoImageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">44dp</item>
+    </style>
+    <style name="btnStyle">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_width">293dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/btn_background</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">68dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    <style name="registerStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#0A87F4</item>
+        <item name="android:textColor">#0A87F4</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+    <style name="pageTitleStyle">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+</resources>
