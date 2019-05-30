@@ -11,29 +11,27 @@ import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import android.view.Menu
+import androidx.navigation.NavController
+import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import com.example.finalproject.R
-import kotlinx.android.synthetic.main.activity_main.*
 
 class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
-
+    var nav : NavController? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
-        val fab: FloatingActionButton = findViewById(R.id.fab)
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-        }
+
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
         val navView: NavigationView = findViewById(R.id.nav_view)
         val toggle = ActionBarDrawerToggle(
             this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close
         )
+        nav = Navigation.findNavController(this, R.id.nav_host_fragment);
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
 
@@ -69,17 +67,18 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         // Handle navigation view item clicks here.
         when (item.itemId) {
             R.id.nav_home -> {
-
+                nav!!.navigate(R.id.homeFragment)
             }
             R.id.nav_payments -> {
-                nav_view.findNavController().navigate(R.id.payments2)
+                nav!!.navigate(R.id.payments2)
 
             }
             R.id.nav_statistics -> {
+                nav!!.navigate(R.id.statisticsFragment)
 
             }
             R.id.nav_cash_out -> {
-
+                nav!!.navigate(R.id.cashOutFragment)
             }
 
         }

@@ -28,4 +28,9 @@
     <string name="shop_name">Shop Name</string>
     <string name="location">Location</string>
 
+    <string name="payments">Payments</string>
+    <string name="cash_out">Cash out</string>
+    <string name="home">Home</string>
+    <string name="statistics">Statistics</string>
+
 </resources>

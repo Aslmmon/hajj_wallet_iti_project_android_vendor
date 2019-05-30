@@ -103,9 +103,7 @@ class SignInActivityViewModel : ViewModel() {
 
     fun goToHomeActivity(context:Context){
         var intent  = Intent(context,HomeActivity::class.java)
-
         startActivity(context,intent,null)
-
     }
 
 

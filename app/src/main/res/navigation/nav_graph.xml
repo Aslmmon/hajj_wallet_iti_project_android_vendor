@@ -7,4 +7,14 @@
               android:label="home_fragment" tools:layout="@layout/home_fragment"/>
     <fragment android:id="@+id/payments2" android:name="com.example.finalproject.Fragments.Payments.Payments"
               android:label="payments_fragment" tools:layout="@layout/payments_fragment"/>
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.example.finalproject.Fragments.Statistics.StatisticsFragment"
+        android:label="statistics_fragment"
+        tools:layout="@layout/statistics_fragment" />
+    <fragment
+        android:id="@+id/cashOutFragment"
+        android:name="com.example.finalproject.Fragments.CashOut.CashOutFragment"
+        android:label="cash_out_fragment"
+        tools:layout="@layout/cash_out_fragment" />
 </navigation>
