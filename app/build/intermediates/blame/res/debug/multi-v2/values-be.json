@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\ITI_Course_Content\\Final_project\\hajj_wallet_iti_project_android_vendor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be\\values-be.xml",
+            "outputFile": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be\\values-be.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\504045e22566c2e409db5849d63bc6cb\\res\\values-be\\values.xml",

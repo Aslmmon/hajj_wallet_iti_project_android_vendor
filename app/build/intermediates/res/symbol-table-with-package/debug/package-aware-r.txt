@@ -643,6 +643,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1206,6 +1207,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id companyTitle
 id constraintLayout
 id constraintLayout2
 id container
@@ -1263,6 +1265,7 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id iv
 id labeled
 id largeLabel
 id left
@@ -1279,6 +1282,7 @@ id media_actions
 id message
 id middle
 id mini
+id money
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
@@ -1318,6 +1322,7 @@ id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
+id recycler
 id restart
 id reverse
 id right
@@ -1372,6 +1377,7 @@ id stretch
 id sub_title
 id submenuarrow
 id submit_area
+id subtitle
 id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
@@ -1391,6 +1397,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id tokenGenerated
 id toolbar
 id top
 id topPanel
@@ -1503,6 +1510,7 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 layout onboarding_view
 layout page_view
+layout payment_list_item
 layout payments_fragment
 layout select_dialog_item_material
 layout select_dialog_multichoice_material

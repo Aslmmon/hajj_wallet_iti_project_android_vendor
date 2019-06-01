@@ -1,4 +1,4 @@
-# Referenced at D:\ITI_Course_Content\Final_project\hajj_wallet_iti_project_android_vendor\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:16
+# Referenced at D:\ITI_Course_Content\Final_project\WorkSpace\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:16
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at D:\ITI_Course_Content\Final_project\hajj_wallet_iti_project_android_vendor\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:16
+# Referenced at D:\ITI_Course_Content\Final_project\WorkSpace\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:16
 -keep class androidx.multidex.MultiDexApplication { <init>(); }
