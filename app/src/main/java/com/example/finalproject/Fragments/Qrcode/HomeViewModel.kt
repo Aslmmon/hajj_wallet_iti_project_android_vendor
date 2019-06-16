@@ -1,5 +1,6 @@
 package com.example.finalproject.Fragments.Qrcode
 
+import android.content.SharedPreferences
 import android.graphics.Bitmap
 import android.util.Log
 import androidx.lifecycle.LiveData

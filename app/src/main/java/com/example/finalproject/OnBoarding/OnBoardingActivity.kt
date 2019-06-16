@@ -24,6 +24,8 @@ class OnBoardingActivity : AppCompatActivity() {
         editor.putString("Once","yes")
         editor.commit()
 
+
+
         onboarding {
             backgroundColor = R.color.white
             page {
@@ -51,7 +53,7 @@ class OnBoardingActivity : AppCompatActivity() {
 //            page {
 //                imageRes = R.drawable.wallet
   //          layout : R.layout.myLayout
-//                subTitleText = "This is a subtitle."
+//                subTitleText = "This is a Time."
 //            }
             onFinish {
                 startActivity(Intent(this@OnBoardingActivity, SignInActivity::class.java))

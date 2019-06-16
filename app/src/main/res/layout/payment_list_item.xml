@@ -46,12 +46,14 @@
         </LinearLayout>
 
         <TextView
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:id="@+id/money"
             android:layout_height="wrap_content"
             android:text="$dollars"
             android:layout_marginLeft="10dp"
             android:layout_weight="2"
+            android:textStyle="bold"
+            android:textSize="22sp"
             android:layout_gravity="center" />
     </LinearLayout>
 

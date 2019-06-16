@@ -5,7 +5,7 @@
             app:startDestination="@id/homeFragment">
     <fragment android:id="@+id/homeFragment" android:name="com.example.finalproject.Fragments.Qrcode.HomeFragment"
               android:label="home_fragment" tools:layout="@layout/home_fragment"/>
-    <fragment android:id="@+id/payments2" android:name="com.example.finalproject.Fragments.Payments.Payments"
+    <fragment android:id="@+id/payments2" android:name="com.example.finalproject.Fragments.TransActions.TransActions"
               android:label="payments_fragment" tools:layout="@layout/payments_fragment"/>
     <fragment
         android:id="@+id/statisticsFragment"

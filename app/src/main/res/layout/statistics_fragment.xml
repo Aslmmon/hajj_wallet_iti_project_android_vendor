@@ -5,16 +5,29 @@
     android:layout_height="match_parent"
     tools:context=".Fragments.Statistics.StatisticsFragment">
 
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2">
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:fontFamily="@font/cookie"
+        android:text="@string/your_statistics"
+        android:textSize="32sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold" />
 
     <com.anychart.AnyChartView
         android:id="@+id/any_chart_view"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1.5"
         />
+    </LinearLayout>
 
 
 

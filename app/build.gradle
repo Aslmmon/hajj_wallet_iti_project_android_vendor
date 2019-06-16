@@ -41,8 +41,8 @@ dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0'
-    implementation 'com.android.support:support-v4:28.0.0'
-    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
     testImplementation 'junit:junit:4.13-beta-3'
     androidTestImplementation 'androidx.test:runner:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
@@ -62,6 +62,7 @@ dependencies {
     implementation "com.squareup.moshi:moshi-kotlin:$version_moshi"
 
 
+    //androidX Navigation
     implementation 'androidx.navigation:navigation-fragment-ktx:2.0.0'
     implementation 'androidx.navigation:navigation-ui-ktx:2.0.0'
 
@@ -70,11 +71,16 @@ dependencies {
     //QrCode Generator
     implementation 'com.google.zxing:core:3.2.1'
 
+    //Glide
     implementation "com.github.bumptech.glide:glide:$version_glide"
 
-    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0-alpha'
+    //  implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0-alpha'
 
+    //PieChart
     implementation 'com.github.AnyChart:AnyChart-Android:1.1.2'
+
+    //Card-From
+    implementation 'com.craftman.cardform:cardform:0.0.2'
 
 
 }

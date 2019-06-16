@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".Fragments.Qrcode.HomeFragment">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Qrcode.HomeFragment">
 
 
     <LinearLayout
@@ -12,21 +11,32 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
-    <TextView
-        android:id="@+id/tokenGenerated"
+
+        <TextView
+            android:id="@+id/tokenGenerated"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Home Fragment "
-    android:textSize="28sp"/>
+            android:text="@string/your_generated_qr_code"
+            android:textColor="#090E2E"
+            android:layout_marginBottom="10dp"
+            android:textSize="28sp" />
 
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:background="@color/white"
-        android:layout_gravity="center"
-        android:id="@+id/iv"/>
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:background="@color/white" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/signIn"
+        style="@style/btnStyle"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_margin="25dp"
+        android:text="@string/print_it" />
 
 
 </FrameLayout>
