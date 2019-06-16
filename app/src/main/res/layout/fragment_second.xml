@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".signUp.AccountDataFragment">
+
+
+
+
+    <ImageView
+        android:id="@+id/logo"
+        style="@style/logoImageStyle"
+        android:src="@drawable/wallet_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/day"
+        style="@style/InputTextField"
+        android:layout_marginTop="32dp"
+        android:drawableEnd="@drawable/email"
+        android:hint="dob_day 20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <EditText
+        android:id="@+id/Month"
+        style="@style/InputTextField"
+        android:layout_marginTop="16dp"
+        android:drawableEnd="@drawable/email"
+        android:hint="dob_month 11"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day" />
+
+    <EditText
+        android:id="@+id/year"
+        style="@style/InputTextField"
+        android:layout_marginTop="16dp"
+        android:drawableEnd="@drawable/email"
+        android:hint="dob_year 1980"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Month" />
+
+    <EditText
+        android:id="@+id/ssnLastNumber"
+        style="@style/InputTextField"
+        android:layout_marginTop="16dp"
+        android:drawableEnd="@drawable/email"
+        android:hint="ssn_last_numbers 	0001"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/year" />
+
+    <EditText
+        android:id="@+id/pinCode"
+        style="@style/InputTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:drawableEnd="@drawable/email"
+        android:hint="pin_code 1234"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ssnLastNumber" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

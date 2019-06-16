@@ -5,4 +5,11 @@
     <color name="colorAccent">#534F4F</color>
     <color name="white">#ffffff</color>
     <color name="black">#000</color>
+
+    <color name="darkBlue">#0A80F5</color>
+    <color name="lightBlue">#0BCCEB</color>
+
+    <color name="light_gray">#E0E0E0</color>
+    <color name="medium_gray">#B8B7B7</color>
+    <color name="dark_gray">#757575</color>
 </resources>

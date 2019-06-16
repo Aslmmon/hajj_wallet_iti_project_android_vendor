@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.finalproject.ChargeActivity
+import com.example.finalproject.Fragments.CashOut.StepperFragments.CreateWalletActivity
 
 import com.example.finalproject.R
 import kotlinx.android.synthetic.main.cash_out_fragment.*
@@ -35,8 +36,8 @@ class CashOutFragment : Fragment() {
         viewModel.getCheckResult.observe(this, Observer {
             balanceNumber.text = it.totalBalance.toString()
         })
-        chargeWallet.setOnClickListener {
-            val intent = Intent (activity, ChargeActivity::class.java)
+        createWallet.setOnClickListener {
+            val intent = Intent (activity, CreateWalletActivity::class.java)
             activity!!.startActivity(intent)
         }
     }

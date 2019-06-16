@@ -30,11 +30,11 @@
 
 
     <Button
-            android:id="@+id/chargeWallet"
+            android:id="@+id/createWallet"
             style="@style/btnStyle"
             android:layout_width="match_parent"
             android:layout_gravity="bottom"
             android:layout_margin="25dp"
-            android:text="@string/charge_wallet" />
+            android:text="create Wallet" />
 
 </FrameLayout>

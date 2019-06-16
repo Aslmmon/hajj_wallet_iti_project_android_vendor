@@ -39,4 +39,6 @@
     <string name="your_balance_is">Your Balance is</string>
     <string name="charge_wallet">Charge Wallet</string>
 
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

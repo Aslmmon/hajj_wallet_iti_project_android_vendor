@@ -1,6 +1,9 @@
 package com.example.finalproject.Retrofit
 
 import com.example.finalproject.Model.CheckWallet.walletExistenceResponse
+import com.example.finalproject.Model.CreateWallet.CreateWalletBody
+import com.example.finalproject.Model.CreateWallet.CreateWalletData
+import com.example.finalproject.Model.CreateWallet.SuccessWalletCreated
 import com.example.finalproject.Model.PaymentsData.PaymentsDummyData
 import com.example.finalproject.Model.QrCodeData.DummyData
 import com.example.finalproject.Model.TransactionsData.ErrorX
@@ -48,6 +51,10 @@ interface ApiService {
             Deferred<DummyData>
 
 
+
+    @POST("/wallet/create/")
+    fun createWallet(@Header("Authorization") token:String,@Body createWalletBody: CreateWalletBody):
+            Call<CreateWalletData>
 
     @POST("/wallet/charge/")
     fun chargeWallet(@Header("Authorization") token: String, @Body cardFields: CardFields):
