@@ -27,7 +27,6 @@ class TransActions : Fragment() {
     private lateinit var transactionsArrayAdapter: TransActionsArrayAdapter
     lateinit var sharedPreference: SharedPreferences
 
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -39,17 +38,17 @@ class TransActions : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        val text = sharedPreference.getString("token","token is here")
-        Log.i("hello","text is $text")
-     //  viewModel = ViewModelProviders.of(this).get(TransActionsViewModel::class.java)
-       // viewModel.getPaymentsFromApi(text)
-//        viewModel.getPayments.observe(this, Observer {
-//            Log.i("recieved","this is recieved data $it")
-//            transactionsArrayAdapter = TransActionsArrayAdapter(context!!, it as ArrayList<transactionsData>)
-//            recycler.adapter =transactionsArrayAdapter
-//            recycler.setHasFixedSize(true)
-//
-//        })
+        val textToken = sharedPreference.getString("token","token is here")
+        Log.i("hello","text is $textToken")
+       viewModel = ViewModelProviders.of(this).get(TransActionsViewModel::class.java)
+        viewModel.getPaymentsFromApi(textToken)
+        viewModel.getTransactions.observe(this, Observer {
+            Log.i("recieved","this is recieved data $it")
+            transactionsArrayAdapter = TransActionsArrayAdapter(context!!, it as ArrayList<transactionsData>)
+            recycler.adapter =transactionsArrayAdapter
+            recycler.setHasFixedSize(true)
+
+        })
 
     }
 

@@ -1,6 +1,8 @@
 package com.example.finalproject.Fragments.CashOut
 
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -22,17 +24,22 @@ class CashOutFragment : Fragment() {
     }
 
     private lateinit var viewModel: CashOutViewModel
+    lateinit var sharedPreference: SharedPreferences
+
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         (activity as? AppCompatActivity)?.supportActionBar?.title = getString(R.string.cash_out)
+        sharedPreference = activity!!.getSharedPreferences("token", Context.MODE_PRIVATE)
         return inflater.inflate(R.layout.cash_out_fragment, container, false)
 
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+        val textToken = sharedPreference.getString("token","token is here")
         viewModel = ViewModelProviders.of(this).get(CashOutViewModel::class.java)
+        viewModel.getResult(textToken)
         viewModel.getCheckResult.observe(this, Observer {
             balanceNumber.text = it.totalBalance.toString()
         })

@@ -16,26 +16,20 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 
 class TransActionsViewModel : ViewModel() {
-    // TODO: Implement the ViewModel
-//
-//    private val _getPayments = MutableLiveData<List<transactionsData>>()
-//
-//
-//    // The external LiveData interface to the property is immutable, so only this class can modify
-//    val getPayments: LiveData<List<transactionsData>>
-//        get() = _getPayments
 
-
-    private val _getErrorTransactions = MutableLiveData<String>()
+    private val _getTransactions = MutableLiveData<List<transactionsData>>()
 
     // The external LiveData interface to the property is immutable, so only this class can modify
-    val getErrorTransactions: LiveData<String>
-        get() = _getErrorTransactions
+    val getTransactions: LiveData<List<transactionsData>>
+        get() = _getTransactions
 
-    init {
-        getPaymentsFromApi()
-    }
 
+//
+//    private val _getErrorTransactions = MutableLiveData<String>()
+//
+//    // The external LiveData interface to the property is immutable, so only this class can modify
+//    val getErrorTransactions: LiveData<String>
+//        get() = _getErrorTransactions
 
     // Create a Coroutine scope using a job to be able to cancel when needed
     private var viewModelJob = Job()
@@ -43,26 +37,29 @@ class TransActionsViewModel : ViewModel() {
     // the Coroutine runs using the Main (UI) dispatcher
     private val coroutineScope = CoroutineScope(viewModelJob + Dispatchers.Main)
 
+//    init {
+//        getPaymentsFromApi(token = String)
+//    }
 
-    private fun getPaymentsFromApi() {
+
+
+
+    public fun getPaymentsFromApi(token:String) {
         coroutineScope.launch {
-            var tokenGot = "077f89fe6b85ed46cf9c18e17d592ce1886435ae"
+
+            Log.i("shared","token is ${token}")
+            //  sharedPreference = getSharedPreferences("token", Context.MODE_PRIVATE)
             //var getThePayments = service.retrofitService.getTransactions("Token "+tokenGot)
-            var getErrorTrans = service.retrofitService.getErrorTransactions("Token "+tokenGot)
+            var getResults = service.retrofitService.getTransactions("Token "+token)
             try {
-                // this will run on a thread managed by Retrofit
-              //  val Result = getThePayments.await()
-                val errorResult = getErrorTrans.await()
+                // this will run on a thread managed by Retrofit //  val Result = getThePayments.await()
+                val result = getResults.await()
                // Log.i("win", "success of ${Result.size}")
                 if (Result != null) {
-                   // _getPayments.value = Result
-                    _getErrorTransactions.value = errorResult.message
-
+                    _getTransactions.value = result
                 }else {
                     Log.i("win", "no results")
-
                 }
-
             } catch (e: Exception) {
                 Log.i("eror", "this is error in payments  ${e.message.toString()}")
             }

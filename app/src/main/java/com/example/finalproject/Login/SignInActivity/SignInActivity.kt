@@ -43,6 +43,9 @@ class SignInActivity : AppCompatActivity() {
                             val editor: SharedPreferences.Editor = sharedPreference.edit()
                             editor.putString("username", userName.text.toString())
                             editor.putString("password",CRNNumber.text.toString())
+                            editor.putString("token",response.body()!!.token)
+                            editor.putString("code",response.body()!!.vendor_details.code)
+
                             Log.i("loginUSer","Saved Done ")
                             editor.commit()
                             var intent = Intent(this@SignInActivity, HomeActivity::class.java)

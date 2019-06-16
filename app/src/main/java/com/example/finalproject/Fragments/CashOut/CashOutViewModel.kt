@@ -27,11 +27,11 @@ class CashOutViewModel : ViewModel() {
 
 
 
-    init {
-        getResult()
-    }
+//    init {
+//        getResult()
+//    }
 
-    private fun getResult() {
+    public fun getResult(token:String) {
         coroutineScope.launch {
             // Get the Deferred object for our Retrofit request
             var tokenGot = "077f89fe6b85ed46cf9c18e17d592ce1886435ae"

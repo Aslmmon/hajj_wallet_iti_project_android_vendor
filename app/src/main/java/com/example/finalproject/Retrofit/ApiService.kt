@@ -66,9 +66,9 @@ interface ApiService {
             /*  The Coroutine Call Adapter allows us to return a Deferred, a Job with a result*/
             Deferred<List<transactionsData>>
 
-    @GET("/vendors/transactions")
-    fun getErrorTransactions(@Header("Authorization") token:String):
-            Deferred<ErrorX>
+//    @GET("/vendors/transactions")
+//    fun getErrorTransactions(@Header("Authorization") token:String):
+//            Deferred<ErrorX>
 
     @GET("/wallet/exists")
     fun getCheckWalletExistence(@Header("Authorization") token:String):

@@ -1,5 +1,7 @@
 package com.example.finalproject.Fragments.Qrcode
 
+import android.content.Context
+import android.content.SharedPreferences
 import android.graphics.Bitmap
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
@@ -8,6 +10,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 
@@ -25,7 +28,7 @@ class HomeFragment : Fragment() {
         val QRcodeWidth = 500
         private val IMAGE_DIRECTORY = "/QRcodeDemonuts"
     }
-
+    lateinit var sharedPreference: SharedPreferences
     internal var bitmap: Bitmap? = null
 
     private lateinit var viewModel: HomeViewModel
@@ -35,31 +38,15 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         (activity as? AppCompatActivity)?.supportActionBar?.title = getString(R.string.home)
+        sharedPreference = activity!!.getSharedPreferences("code", Context.MODE_PRIVATE)
         return inflater.inflate(R.layout.home_fragment, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-
-//        viewModel = ViewModelProviders.of(this).get(HomeViewModel::class.java)
-//        // TODO: Use the ViewModel
-//        viewModel.getTokenID.observe(this, Observer {
-//            Log.i("token","id is : ${it.id}")
-//            tokenGenerated.setText(it.id)
-//
-//           // TextToImageEncode(tokenGenerated.text.toString())
-//
-//        })
-//        viewModel.TextToImageEncode(tokenGenerated.text.toString())
-//        try {
-//            bitmap = viewModel.TextToImageEncode(tokenGenerated.text.toString())
-//            iv!!.setImageBitmap(bitmap)
-//        }catch (e: WriterException) {
-//            e.printStackTrace()
-//        }
-
-   //     tokenGenerated.text = it.id.toString()
-        bitmap = TextToImageEncode("zamalek")
+        val text = sharedPreference.getString("code","code")
+        Toast.makeText(activity,"Your code is $text",Toast.LENGTH_SHORT).show()
+        bitmap = TextToImageEncode(text)
             iv!!.setImageBitmap(bitmap)
 
     }
