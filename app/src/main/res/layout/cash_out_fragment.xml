@@ -8,23 +8,29 @@
     <LinearLayout android:layout_width="match_parent"
                   android:layout_height="match_parent"
                   android:orientation="vertical"
+        android:background="@color/whiteCyan"
                   android:gravity="center">
 
         <TextView android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:text="@string/your_balance_is"
                   android:textSize="42sp"
+            android:id="@+id/balance"
+            android:textColor="@color/black"
                   android:fontFamily="@font/cookie"
                   android:textStyle="bold"
                   android:gravity="center"/>
-        <TextView android:layout_width="wrap_content"
-                  android:id="@+id/balanceNumber"
-                  android:layout_height="wrap_content"
-                  android:text=".."
-                  android:fontFamily="@font/cookie"
-                  android:textSize="24sp"
-                  android:textStyle="bold"
-                  android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/balanceNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="..."
+            android:fontFamily="@font/goblin_one"
+            android:textSize="80sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -35,6 +41,7 @@
             android:layout_width="match_parent"
             android:layout_gravity="bottom"
             android:layout_margin="25dp"
-            android:text="create Wallet" />
+        android:textSize="22sp"
+            android:text="@string/create_wallet" />
 
 </FrameLayout>

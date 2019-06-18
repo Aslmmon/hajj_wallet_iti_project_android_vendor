@@ -20,6 +20,7 @@ import com.google.zxing.MultiFormatWriter
 import com.google.zxing.WriterException
 import com.google.zxing.common.BitMatrix
 import kotlinx.android.synthetic.main.home_fragment.*
+import kotlinx.android.synthetic.main.nav_header_home.*
 
 class HomeFragment : Fragment() {
 
@@ -44,10 +45,15 @@ class HomeFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        val text = sharedPreference.getString("code","code")
-        Toast.makeText(activity,"Your code is $text",Toast.LENGTH_SHORT).show()
+        val text = activity!!.intent.getStringExtra("code")
+        val usr = activity!!.intent.getStringExtra("firstName")
+        val email = activity!!.intent.getStringExtra("email")
+        Log.i("hello","code in Home is $text")
+
+       // Toast.makeText(activity,"Your code is $text",Toast.LENGTH_SHORT).show()
         bitmap = TextToImageEncode(text)
             iv!!.setImageBitmap(bitmap)
+
 
     }
 

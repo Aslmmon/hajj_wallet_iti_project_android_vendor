@@ -4,6 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     app:cardCornerRadius="5dp"
+    app:cardElevation="10dp"
     android:padding="5dp"
     android:layout_margin="10dp"
     android:layout_height="wrap_content">
@@ -17,10 +18,10 @@
         android:orientation="horizontal">
 
         <ImageView android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_height="80dp"
             android:layout_weight="1"
             android:id="@+id/image"
-            android:src="@drawable/wallet_blue"/>
+            android:src="@drawable/qrcode"/>
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -46,15 +47,16 @@
         </LinearLayout>
 
         <TextView
-            android:layout_width="wrap_content"
             android:id="@+id/money"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="$dollars"
+            android:layout_gravity="center"
             android:layout_marginLeft="10dp"
             android:layout_weight="2"
-            android:textStyle="bold"
-            android:textSize="22sp"
-            android:layout_gravity="center" />
+            android:fontFamily="@font/goblin_one"
+            android:text="$dollars"
+            android:textSize="26sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

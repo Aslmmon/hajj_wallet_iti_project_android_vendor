@@ -9,8 +9,8 @@
     <string name="title_activity_home">HomeActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">username</string>
-    <string name="nav_header_subtitle">user@android.com</string>
+    <string name="nav_header_title">roger</string>
+    <string name="nav_header_subtitle">roger@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -40,5 +40,17 @@
     <string name="charge_wallet">Charge Wallet</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">username</string>
+    <string name="first_name">first_name</string>
+    <string name="last_name">last_name</string>
+    <string name="phone_number">phone_number</string>
+    <string name="gender">gender M OR F </string>
+    <string name="nationality">nationality</string>
+    <string name="category">category</string>
+    <string name="code">code vendor</string>
+    <string name="password2">password2</string>
+    <string name="store">store</string>
+    <string name="create_wallet">Create Wallet</string>
+    <string name="get_location">Get Location</string>
 
 </resources>

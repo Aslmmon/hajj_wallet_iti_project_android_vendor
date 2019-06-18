@@ -14,16 +14,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Fragments.CashOut.StepperFragments.CreateWalletActivity"></activity>
-        <activity android:name=".ChargeActivity"></activity>
-        <activity android:name=".ChargeWalletActivity"></activity>
+        <activity android:name=".Login.SignUpActivity.MapActivity"></activity>
+        <activity android:name=".Fragments.CashOut.StepperFragments.CreateWalletActivity" />
+        <activity android:name=".ChargeActivity" />
+        <activity android:name=".ChargeWalletActivity" />
         <activity
             android:name=".Home.HomeActivity"
             android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Login.SignUpActivity.SignUpActivity"></activity>
-        <activity android:name=".Login.SignInActivity.SignInActivity"></activity>
-        <activity android:name=".OnBoarding.OnBoardingActivity"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login.SignUpActivity.SignUpActivity" />
+        <activity android:name=".Login.SignInActivity.SignInActivity" />
+        <activity android:name=".OnBoarding.OnBoardingActivity" />
         <activity android:name=".Splash.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,11 +32,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBYGN0Nt2A37RFc7nasAWvTQx-poP-oXBY" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBYGN0Nt2A37RFc7nasAWvTQx-poP-oXBY" />
     </application>
 
 </manifest>

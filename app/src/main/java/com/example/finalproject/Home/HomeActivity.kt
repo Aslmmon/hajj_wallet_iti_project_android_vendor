@@ -1,6 +1,7 @@
 package com.example.finalproject.Home
 
 import android.os.Bundle
+import android.util.Log
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import androidx.core.view.GravityCompat
@@ -15,6 +16,7 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import com.example.finalproject.R
+import kotlinx.android.synthetic.main.nav_header_home.*
 
 class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -24,6 +26,7 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setContentView(R.layout.activity_home)
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
+
 
 
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
@@ -36,6 +39,21 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         toggle.syncState()
 
         navView.setNavigationItemSelectedListener(this)
+
+        val intent = intent
+        val token = intent.getStringExtra("token")
+        val code = intent.getStringExtra("code")
+        val usr = intent.getStringExtra("firstName")
+        val email = intent.getStringExtra("email")
+
+
+
+      //  val user = intent.getSerializableExtra("user") as Pilgrim
+        Log.i("account", "token ${token}")
+        Log.i("account", "first name ${usr}")
+        Log.i("account", "email ${email}")
+
+        // Log.i(TAG, "user ${user}")
     }
 
     override fun onBackPressed() {

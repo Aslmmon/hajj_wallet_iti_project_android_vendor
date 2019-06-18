@@ -33,14 +33,14 @@ class SecondFragment : Fragment(), BlockingStep {
     override fun onCompleteClicked(callback: StepperLayout.OnCompleteClickedCallback?) {
         val parentActivity = (activity as CreateWalletActivity)
         parentActivity.createWalletbody.dob_day = day.text.toString()
-        parentActivity.createWalletbody.dob_day = Month.text.toString()
+        parentActivity.createWalletbody.dob_month = Month.text.toString()
         parentActivity.createWalletbody.dob_year= year.text.toString()
         parentActivity.createWalletbody.ssn_last_numbers = ssnLastNumber.text.toString()
         parentActivity.createWalletbody.pin_code= pinCode.text.toString()
 
       //  Toast.makeText(activity,"Done Added",Toast.LENGTH_SHORT).show()
         callback!!.complete()
-        parentActivity.finish()
+        //parentActivity.finish()
 
     }
 

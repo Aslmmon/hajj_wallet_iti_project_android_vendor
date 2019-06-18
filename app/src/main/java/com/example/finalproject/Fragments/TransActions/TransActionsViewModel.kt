@@ -59,8 +59,10 @@ class TransActionsViewModel : ViewModel() {
                     _getTransactions.value = result
                 }else {
                     Log.i("win", "no results")
+                    _getTransactions.value = null
                 }
             } catch (e: Exception) {
+                _getTransactions.value = null
                 Log.i("eror", "this is error in payments  ${e.message.toString()}")
             }
 

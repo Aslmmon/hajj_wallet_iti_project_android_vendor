@@ -9,6 +9,8 @@ import com.example.finalproject.Model.QrCodeData.DummyData
 import com.example.finalproject.Model.TransactionsData.ErrorX
 import com.example.finalproject.Model.TransactionsData.transactionsData
 import com.example.finalproject.Model.UserLogin.UserResponse
+import com.example.finalproject.Model.UserLogin.UserSignUp
+import com.example.finalproject.Model.UserSignUp.SignUpResponse
 import com.example.finalproject.Model.walletCharged.CardFields
 import com.example.finalproject.Model.walletCharged.SuccessWalletCharged
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
@@ -50,15 +52,16 @@ interface ApiService {
             /*  The Coroutine Call Adapter allows us to return a Deferred, a Job with a result*/
             Deferred<DummyData>
 
-
-
     @POST("/wallet/create/")
     fun createWallet(@Header("Authorization") token:String,@Body createWalletBody: CreateWalletBody):
-            Call<CreateWalletData>
+            Call<SuccessWalletCreated>
 
     @POST("/wallet/charge/")
     fun chargeWallet(@Header("Authorization") token: String, @Body cardFields: CardFields):
             Deferred<SuccessWalletCharged>
+
+    @POST("/vendors/registration/vendors_register")
+    fun SignUpVendor(@Body sign:UserSignUp):Call<SignUpResponse>
 
 
     @GET("/vendors/transactions")

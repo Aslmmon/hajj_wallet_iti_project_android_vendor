@@ -88,6 +88,9 @@ dependencies {
 
     //Card-From
     implementation 'com.craftman.cardform:cardform:0.0.2'
+//google map
+    implementation 'com.google.android.gms:play-services-maps:15.0.1'
+    implementation 'com.google.maps.android:android-maps-utils:0.5'
 
 
 }

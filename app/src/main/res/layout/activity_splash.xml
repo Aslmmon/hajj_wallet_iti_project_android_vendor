@@ -10,7 +10,7 @@
 
     <ImageView
             android:id="@+id/image"
-            android:src="@drawable/wallet_white"
+            android:src="@drawable/hajj_icon"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_centerInParent="true"/>

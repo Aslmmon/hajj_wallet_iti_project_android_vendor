@@ -38,15 +38,23 @@ class TransActions : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        val textToken = sharedPreference.getString("token","token is here")
-        Log.i("hello","text is $textToken")
+        val textToken = activity!!.intent.getStringExtra("token")
+        Log.i("hello","token in transaction is $textToken")
        viewModel = ViewModelProviders.of(this).get(TransActionsViewModel::class.java)
         viewModel.getPaymentsFromApi(textToken)
         viewModel.getTransactions.observe(this, Observer {
             Log.i("recieved","this is recieved data $it")
-            transactionsArrayAdapter = TransActionsArrayAdapter(context!!, it as ArrayList<transactionsData>)
-            recycler.adapter =transactionsArrayAdapter
-            recycler.setHasFixedSize(true)
+            if(it == null){
+                recycler.visibility = View.GONE
+                empty_view.visibility = View.VISIBLE
+            }else {
+                transactionsArrayAdapter = TransActionsArrayAdapter(context!!, it as ArrayList<transactionsData>)
+                recycler.adapter =transactionsArrayAdapter
+                recycler.setHasFixedSize(true)
+                recycler.visibility = View.VISIBLE;
+                empty_view.visibility = View.GONE;
+            }
+
 
         })
 

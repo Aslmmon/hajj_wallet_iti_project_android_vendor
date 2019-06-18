@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/logo"-->
+        <!--style="@style/logoImageStyle"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:src="@drawable/hajj_icon"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.425"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <EditText
+        android:id="@+id/email"
+        style="@style/InputTextField"
+        android:layout_width="212dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:drawableEnd="@drawable/email"
+        android:hint="@string/email_address"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <EditText
+        android:id="@+id/username"
+        style="@style/InputTextField"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:drawableEnd="@drawable/email"
+        android:hint="@string/username"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <EditText
+        android:id="@+id/first_name"
+        style="@style/InputTextField"
+        android:layout_width="210dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="16dp"
+        android:drawableEnd="@drawable/email"
+        android:hint="@string/first_name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <EditText
+        android:id="@+id/last_name"
+        style="@style/InputTextField"
+        android:layout_width="218dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="16dp"
+        android:drawableEnd="@drawable/email"
+        android:hint="@string/last_name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_name" />
+
+
+    <EditText
+        android:id="@+id/phone_number"
+        style="@style/InputTextField"
+        android:layout_width="208dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="32dp"
+        android:drawableEnd="@drawable/email"
+        android:hint="@string/phone_number"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/last_name" />
+
+    <EditText
+        android:id="@+id/gender"
+        style="@style/InputTextField"
+        android:layout_width="212dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="32dp"
+        android:drawableEnd="@drawable/email"
+        android:hint="@string/gender"
+        android:maxEms="1"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_number" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

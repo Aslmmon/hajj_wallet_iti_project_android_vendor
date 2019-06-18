@@ -25,6 +25,7 @@ class CreateWalletActivity : AppCompatActivity(), StepperLayout.StepperListener 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create_wallet)
 
+
         createWalletbody = CreateWalletBody(
                 null, null, null, null, null,
                 null, null, null, null, null
@@ -47,26 +48,20 @@ class CreateWalletActivity : AppCompatActivity(), StepperLayout.StepperListener 
 //        val progressDialog = ProgressDialog(this)
 //        progressDialog.setTitle("Creating Wallet")
 //        progressDialog.show()
+        val intent = intent
+        val token = intent.getStringExtra("token")
+        Toast.makeText(this@CreateWalletActivity,"Your token is ${token} ",Toast.LENGTH_SHORT).show()
 
-        viewModel.CreateWallet(createWalletbody, this)
-
+        viewModel.CreateWallet(createWalletbody, this,token)
         viewModel.response.observe(this, Observer {
-            if(it.createWalletBody != null ){
-                Toast.makeText(this,"Done Created in Activity ",Toast.LENGTH_SHORT).show()
+            if(it != null ){
+                Toast.makeText(this@CreateWalletActivity,"Done Created in Activity ",Toast.LENGTH_SHORT).show()
                 finish()
-                Log.i("ok","Created in Activity ")
+                Log.i("ok","Created in Activity ${it.success}")
             }else {
                 Toast.makeText(this,"Error in Creating",Toast.LENGTH_SHORT).show()
 
             }
-//            if (response.token != null) {
-////                val intent = Intent(this, HomeActivity::class.java)
-////                intent.putExtra("token", response.token)
-////                intent.putExtra("user", response.user)
-////                startActivity(intent)
-//                finish()
-//            }
-
         })
 
     }

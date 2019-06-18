@@ -34,8 +34,7 @@ class CashOutViewModel : ViewModel() {
     public fun getResult(token:String) {
         coroutineScope.launch {
             // Get the Deferred object for our Retrofit request
-            var tokenGot = "077f89fe6b85ed46cf9c18e17d592ce1886435ae"
-            var getResult  = service.retrofitService.getCheckWalletExistence("Token "+tokenGot)
+            var getResult  = service.retrofitService.getCheckWalletExistence("Token "+token)
             try {
                 // this will run on a thread managed by Retrofit
                 val Result = getResult.await()
@@ -45,6 +44,7 @@ class CashOutViewModel : ViewModel() {
                 }
 
             } catch (e: Exception) {
+                _getCheckResult.value = null
                 Log.i("eror", "this is error ${e.message.toString()}")
             }
         }
