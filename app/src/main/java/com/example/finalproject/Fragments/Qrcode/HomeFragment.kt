@@ -27,12 +27,10 @@ class HomeFragment : Fragment() {
     companion object {
         fun newInstance() = HomeFragment()
         val QRcodeWidth = 500
-        private val IMAGE_DIRECTORY = "/QRcodeDemonuts"
     }
     lateinit var sharedPreference: SharedPreferences
     internal var bitmap: Bitmap? = null
 
-    private lateinit var viewModel: HomeViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -46,11 +44,7 @@ class HomeFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         val text = activity!!.intent.getStringExtra("code")
-        val usr = activity!!.intent.getStringExtra("firstName")
-        val email = activity!!.intent.getStringExtra("email")
         Log.i("hello","code in Home is $text")
-
-       // Toast.makeText(activity,"Your code is $text",Toast.LENGTH_SHORT).show()
         bitmap = TextToImageEncode(text)
             iv!!.setImageBitmap(bitmap)
 

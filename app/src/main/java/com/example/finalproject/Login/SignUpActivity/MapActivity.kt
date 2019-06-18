@@ -1,6 +1,7 @@
 package com.example.finalproject.Login.SignUpActivity
 
 import android.app.Activity
+import android.location.Location
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
@@ -12,11 +13,15 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.gms.maps.model.LatLng
+import kotlinx.android.synthetic.main.activity_map.*
 
 
 
 
-class MapActivity : AppCompatActivity(),OnMapReadyCallback {
+class MapActivity : AppCompatActivity(),OnMapReadyCallback, GoogleMap.OnMyLocationClickListener {
+    override fun onMyLocationClick(p0: Location) {
+
+    }
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,9 +36,10 @@ class MapActivity : AppCompatActivity(),OnMapReadyCallback {
 
     }
 
+
     override fun onMapReady(googleMap: GoogleMap?) {
 
-        val egypt = LatLng(26.8206, 30.8025)
+        val egypt = LatLng(31.192735, 29.905602)
 
         googleMap!!.isMyLocationEnabled
         googleMap.setOnMapClickListener {
@@ -47,9 +53,13 @@ class MapActivity : AppCompatActivity(),OnMapReadyCallback {
             finish()
 
         }
-        googleMap!!.addMarker(MarkerOptions().position(egypt)
-                .title("Marker in Egypt"))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLng(egypt))
+        googleMap.addMarker(MarkerOptions().position(egypt)
+                .title("Marker Your Location"))
+       // googleMap.moveCamera(CameraUpdateFactory.newLatLng(egypt))
+        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(egypt, 12.0f))
+
 
     }
+
+
 }

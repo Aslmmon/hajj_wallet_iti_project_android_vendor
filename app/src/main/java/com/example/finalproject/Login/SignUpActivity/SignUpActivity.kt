@@ -52,19 +52,24 @@ class SignUpActivity : AppCompatActivity(), StepperLayout.StepperListener {
 
     override fun onCompleted(completeButton: View?) {
 
-
+        val progressDialog = ProgressDialog(this)
+        progressDialog.setTitle("Creating acount")
+        progressDialog.show()
 
         viewModel.signUp(userSignUp, this)
         viewModel.response.observe(this, Observer { response ->
 //            progressDialog.dismiss()
-            Toast.makeText(this@SignUpActivity,"Done Created , Waiting For Approval",Toast.LENGTH_LONG).show()
             if (response != null) {
+                Toast.makeText(this@SignUpActivity,"Done Created , Waiting For Approval",Toast.LENGTH_LONG).show()
                 val intent = Intent(this, SignInActivity::class.java)
                 startActivity(intent)
-                finish()
+                progressDialog.dismiss()
             }
 
+
         })
+        progressDialog.dismiss()
+        finish()
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

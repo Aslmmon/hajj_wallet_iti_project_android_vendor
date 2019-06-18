@@ -8,6 +8,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -25,39 +26,51 @@ class CashOutFragment : Fragment() {
     }
 
     private lateinit var viewModel: CashOutViewModel
-    lateinit var sharedPreference: SharedPreferences
-
-
+    
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         (activity as? AppCompatActivity)?.supportActionBar?.title = getString(R.string.cash_out)
-       // sharedPreference = activity!!.getSharedPreferences("token", Context.MODE_PRIVATE)
+        // sharedPreference = activity!!.getSharedPreferences("token", Context.MODE_PRIVATE)
         return inflater.inflate(R.layout.cash_out_fragment, container, false)
+        Log.i("lifecycle", "on CreateView")
 
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        val textToken = activity!!.intent.getStringExtra("token")
-        Log.i("hello","token in Cash Out  is $textToken")
-
+        Log.i("lifecycle", "on Activity Created")
         viewModel = ViewModelProviders.of(this).get(CashOutViewModel::class.java)
-        viewModel.getResult(textToken)
-        viewModel.getCheckResult.observe(this, Observer {
-            if(it == null){
-                balanceNumber.text= "No Wallet"
-                balance.text = ""
-            }else {
-                balanceNumber.text = it.totalBalance.toString()
-            }
-        })
-        val text = activity!!.intent.getStringExtra("token")
-        createWallet.setOnClickListener {
-            val intent = Intent (activity, CreateWalletActivity::class.java)
-            intent.putExtra("token",text)
-            activity!!.startActivity(intent)
-        }
+
     }
 
+    override fun onResume() {
+        super.onResume()
+
+        val textToken = activity!!.intent.getStringExtra("token")
+        Log.i("lifecycle", "on Resume")
+        viewModel.getResult(textToken)
+        viewModel.getCheckResult.observe(this, Observer {
+            if (it == null) {
+                balanceNumber.text = "No Wallet"
+                balance.text = ""
+            } else {
+                balanceNumber.text = it.totalBalance.toString()
+                //    createWallet.isClickable = false
+
+            }
+        })
+
+        createWallet.setOnClickListener {
+            if (!createWallet.isClickable) {
+                Toast.makeText(activity,"You Have Wallet Already Created !",Toast.LENGTH_SHORT).show()
+            } else {
+
+                val intent = Intent(activity, CreateWalletActivity::class.java)
+                intent.putExtra("token", textToken)
+                activity!!.startActivity(intent)
+            }
+        }
+        Log.i("lifecycle", "on Start")
+    }
 
 }

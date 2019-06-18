@@ -22,25 +22,24 @@ class SignUpViewModel : ViewModel() {
 
 
     fun signUp(vendor: UserSignUp, context: Context) {
-        val progressDialog = ProgressDialog(context)
-        progressDialog.setTitle("Creating acount")
-        progressDialog.show()
+
 
         Log.i("eshta","Sending Data is ${vendor}")
         service.retrofitService.SignUpVendor(vendor)
                 .enqueue(object : Callback<SignUpResponse> {
                     override fun onFailure(call: Call<SignUpResponse>, t: Throwable) {
                         Toast.makeText(context, t.message + "Try Again", Toast.LENGTH_SHORT).show()
-                        progressDialog.dismiss()
 
                     }
 
                     override fun onResponse(call: Call<SignUpResponse>, response: Response<SignUpResponse>) {
-                        progressDialog.dismiss()
                         if (response.isSuccessful) {
                             _response.value = response.body()
+                            Toast.makeText(context, "Account Created Successfully , Waiting for Approval", Toast.LENGTH_SHORT).show()
                             Log.i("eshta", "data return is ${response.body()}")
+
                         } else {
+                            Toast.makeText(context,"The Error is  ${response.message()}",Toast.LENGTH_SHORT).show()
                             Log.i("eshta", "Errrrrooooorr   data return is ${response.body()}")
                             Log.i("eshta", "Errrrrooooorr   data return is ${response.errorBody()}")
                             Log.i("eshta", "Errrrrooooorr   data return is ${response.message()}")

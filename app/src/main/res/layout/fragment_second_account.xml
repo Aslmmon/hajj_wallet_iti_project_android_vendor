@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="6dp"
     >
 
     <LinearLayout
@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         android:weightSum="2"
         android:orientation="horizontal">
-
         <EditText
             android:id="@+id/nationality"
             style="@style/InputTextField"
@@ -30,7 +29,6 @@
             android:hint="@string/category"
             android:inputType="text"
            />
-
 
     </LinearLayout>
     <LinearLayout
@@ -93,29 +91,24 @@
 
     </LinearLayout>
 
-
-
-
-
-
-    <!--<EditText-->
-        <!--android:id="@+id/location"-->
-        <!--style="@style/InputTextField"-->
-        <!--android:layout_marginTop="32dp"-->
-        <!--android:drawableEnd="@drawable/email"-->
-        <!--android:hint="location"-->
-        <!--android:inputType="text"-->
-        <!--app:layout_constraintEnd_toEndOf="parent"-->
-        <!--app:layout_constraintStart_toStartOf="parent"-->
-        <!--app:layout_constraintTop_toBottomOf="@+id/store" />-->
-
     <Button
         android:id="@+id/getLocation"
         style="@style/btnStyle"
         android:layout_width="match_parent"
         android:text="@string/get_location"
-        android:textSize="18sp"
-      />
+        android:textSize="18sp" />
+
+    <!--<EditText-->
+    <!--android:id="@+id/location"-->
+    <!--style="@style/InputTextField"-->
+    <!--android:layout_marginTop="32dp"-->
+    <!--android:drawableEnd="@drawable/email"-->
+    <!--android:hint="location"-->
+    <!--android:inputType="text"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/store" />-->
+
 
 
 </LinearLayout>

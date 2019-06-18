@@ -16,11 +16,13 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import com.example.finalproject.R
+import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.nav_header_home.*
+import kotlinx.android.synthetic.main.nav_header_home.view.*
 
 class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
-    var nav : NavController? = null
+    var nav: NavController? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
@@ -28,11 +30,10 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setSupportActionBar(toolbar)
 
 
-
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
         val navView: NavigationView = findViewById(R.id.nav_view)
         val toggle = ActionBarDrawerToggle(
-            this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close
+                this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close
         )
         nav = Navigation.findNavController(this, R.id.nav_host_fragment);
         drawerLayout.addDrawerListener(toggle)
@@ -46,9 +47,10 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val usr = intent.getStringExtra("firstName")
         val email = intent.getStringExtra("email")
 
+        navView.getHeaderView(0).theUserName.text = usr
+        nav_view.getHeaderView(0).emailUser.text = email
 
-
-      //  val user = intent.getSerializableExtra("user") as Pilgrim
+        //  val user = intent.getSerializableExtra("user") as Pilgrim
         Log.i("account", "token ${token}")
         Log.i("account", "first name ${usr}")
         Log.i("account", "email ${email}")
@@ -65,22 +67,6 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         }
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.home, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        return when (item.itemId) {
-            R.id.action_settings -> true
-            else -> super.onOptionsItemSelected(item)
-        }
-    }
-
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
@@ -91,10 +77,7 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 nav!!.navigate(R.id.payments2)
 
             }
-            R.id.nav_statistics -> {
-                nav!!.navigate(R.id.statisticsFragment)
 
-            }
             R.id.nav_cash_out -> {
                 nav!!.navigate(R.id.cashOutFragment)
             }

@@ -33,11 +33,11 @@ class FirstFragment : Fragment(), BlockingStep {
 
     override fun onNextClicked(callback: StepperLayout.OnNextClickedCallback?) {
         val parentActivity = (activity as CreateWalletActivity)
-        parentActivity.createWalletbody.country= country.text.toString()
-        parentActivity.createWalletbody.bank_name= bank_name.text.toString()
-        parentActivity.createWalletbody.account_number= account_number.text.toString()
-        parentActivity.createWalletbody.routing_number= routing_number.text.toString()
-        parentActivity.createWalletbody.currency = currency.text.toString()
+        parentActivity.createWalletbody.country= "US"
+        parentActivity.createWalletbody.bank_name= "STRIPE TEST BANK"
+        parentActivity.createWalletbody.account_number= "000123456789"
+        parentActivity.createWalletbody.routing_number= "110000000"
+        parentActivity.createWalletbody.currency = "usd"
 
         callback!!.goToNextStep()
     }

@@ -32,6 +32,13 @@
 
     </androidx.recyclerview.widget.RecyclerView>
 
+        <ImageView
+            android:id="@+id/trans"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/trans" />
+
 
         <TextView
             android:id="@+id/empty_view"
@@ -39,8 +46,10 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="28sp"
-            android:visibility="gone"
-            android:text="No Data " />
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="@font/cookie"
+            android:text="No Transactions Yet" />
     </LinearLayout>
 
 

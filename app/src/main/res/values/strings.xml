@@ -53,4 +53,12 @@
     <string name="create_wallet">Create Wallet</string>
     <string name="get_location">Get Location</string>
 
+    <string name="not_valid_email">Not a valid email</string>
+    <string name="required_field">Required field</string>
+    <string name="password_is_numbers">Password can\'t be only numbers</string>
+    <string name="password_is_short">Password must be at least 8 letters</string>
+
+    <string name="password_doesnt_match">Passwords doesn\'t match</string>
+
+
 </resources>

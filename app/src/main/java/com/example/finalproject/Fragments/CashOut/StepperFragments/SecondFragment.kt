@@ -1,6 +1,7 @@
 package com.example.finalproject.Fragments.CashOut.StepperFragments
 
 
+import android.app.ProgressDialog
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -24,7 +25,7 @@ private const val ARG_PARAM2 = "param2"
  */
 class SecondFragment : Fragment(), BlockingStep {
     override fun onBackClicked(callback: StepperLayout.OnBackClickedCallback?) {
-
+        callback!!.goToPrevStep()
     }
 
     override fun onSelected() {
@@ -32,15 +33,15 @@ class SecondFragment : Fragment(), BlockingStep {
 
     override fun onCompleteClicked(callback: StepperLayout.OnCompleteClickedCallback?) {
         val parentActivity = (activity as CreateWalletActivity)
-        parentActivity.createWalletbody.dob_day = day.text.toString()
-        parentActivity.createWalletbody.dob_month = Month.text.toString()
-        parentActivity.createWalletbody.dob_year= year.text.toString()
-        parentActivity.createWalletbody.ssn_last_numbers = ssnLastNumber.text.toString()
-        parentActivity.createWalletbody.pin_code= pinCode.text.toString()
+        parentActivity.createWalletbody.dob_day = "20"
+        parentActivity.createWalletbody.dob_month = "11"
+        parentActivity.createWalletbody.dob_year= "1980"
+        parentActivity.createWalletbody.ssn_last_numbers = "0001"
+        parentActivity.createWalletbody.pin_code= "1234"
 
-      //  Toast.makeText(activity,"Done Added",Toast.LENGTH_SHORT).show()
+
         callback!!.complete()
-        //parentActivity.finish()
+        parentActivity.finish()
 
     }
 

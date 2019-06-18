@@ -29,7 +29,7 @@
             android:id="@+id/logo"
             style="@style/logoImageStyle"
             android:layout_marginTop="8dp"
-            android:src="@drawable/hajj_icon"
+            android:src="@drawable/hafezah_logo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.354"
             app:layout_constraintStart_toStartOf="parent"
