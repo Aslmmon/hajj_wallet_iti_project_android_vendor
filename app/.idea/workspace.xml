@@ -20,34 +20,13 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_9_0_aar.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_zxing_core_3_2_1_jar.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__info_hoang8f_android_segmented_1_0_6_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignUpActivity/Category/CategoryActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignUpActivity/Category/CategoryActivityViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignUpActivity/Category/CategoryAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignUpActivity/Nationality/NationalityActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignUpActivity/Nationality/NationalityActivityViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignUpActivity/Nationality/NationalityAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Model/Categories/CategoriesResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Model/Nationalities/NationalitiesResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Model/SignOut/SignOutResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-v21/transactionnnnn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/logout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/signout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_category.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_nationality.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_view_category.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_view_nationality.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/TransActions/TransActionsArrayAdapter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/5.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" afterDir="false" />
@@ -71,8 +50,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/appcompat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/appcompat/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/asynclayoutinflater/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/asynclayoutinflater/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/cardview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/cardview/R.java" afterDir="false" />
@@ -1202,7 +1179,7 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/outputs/apk/debug/app-debug.apk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/com/example/finalproject/Fragments/CashOut/CashOutFragment$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/com/example/finalproject/Fragments/CashOut/CashOutFragment$Companion.class" afterDir="false" />
@@ -1235,31 +1212,6 @@
       <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/com/example/finalproject/Retrofit/service$retrofitService$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/com/example/finalproject/Retrofit/service$retrofitService$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/com/example/finalproject/Retrofit/service.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/com/example/finalproject/Retrofit/service.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/com/example/finalproject/Splash/SplashActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/com/example/finalproject/Splash/SplashActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/CashOut/CashOutFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/CashOut/CashOutFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/CashOut/StepperFragments/CreateWalletActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/CashOut/StepperFragments/CreateWalletActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/CashOut/StepperFragments/CreateWalletViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/CashOut/StepperFragments/CreateWalletViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/CashOut/StepperFragments/SecondFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/CashOut/StepperFragments/SecondFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/TransActions/TransActions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/TransActions/TransActions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/TransActions/TransActionsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/TransActions/TransActionsViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Home/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Home/HomeActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignInActivity/SignInActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignInActivity/SignInActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignUpActivity/AccountFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignUpActivity/AccountFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignUpActivity/MapActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignUpActivity/MapActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignUpActivity/SecondAccountFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignUpActivity/SecondAccountFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignUpActivity/SignUpActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignUpActivity/SignUpActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Model/UserLogin/UserSignUp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Model/UserLogin/UserSignUp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Retrofit/ApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Retrofit/ApiService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_sign_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_sign_in.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/cash_out_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/cash_out_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_account.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_second.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_second.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_second_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_second_account.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/home_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/home_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/payments_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/payments_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/menu/activity_home_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/menu/activity_home_drawer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1286,7 +1238,17 @@
     <favorites_list name="app" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/TransActions/TransActionsArrayAdapter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1355,12 +1317,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/finalproject/Login/SignUpActivity/Category/CategoryActivity.kt" />
         <option value="$PROJECT_DIR$/src/main/res/layout/item_view_category.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/item_view_nationality.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/TransActions/TransActionsArrayAdapter.kt" />
         <option value="$PROJECT_DIR$/src/main/res/layout/cash_out_fragment.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/CashOut/CashOutFragment.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/TransActions/TransActions.kt" />
         <option value="$PROJECT_DIR$/src/main/res/layout/payments_fragment.xml" />
         <option value="$PROJECT_DIR$/src/main/res/menu/activity_home_drawer.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/TransActions/TransActionsArrayAdapter.kt" />
       </list>
     </option>
   </component>
@@ -1376,7 +1338,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="finalproject" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="finalproject" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="finalproject" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Fragments" type="462c0819:PsiDirectoryNode" />
+              <item name="TransActions" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane" />
@@ -1609,7 +1607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560878592968</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Final Version">
+      <created>1561257622046</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561257622046</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2009,13 +2014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/TransActions/TransActionsArrayAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/CashOut/CashOutViewModel.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -2079,6 +2077,13 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/finalproject/Fragments/TransActions/TransActionsArrayAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -2094,4 +2099,6 @@
           </splitter-proportions>
         </settings>
       </state>
-  
+    </states>
+  </component>
+</project>
