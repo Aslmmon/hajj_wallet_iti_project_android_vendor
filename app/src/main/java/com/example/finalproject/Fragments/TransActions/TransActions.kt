@@ -43,7 +43,7 @@ class TransActions : Fragment() {
         viewModel.getTransactions.observe(this, Observer {
             Log.i("recieved", "this is recieved data $it")
             if (it == null) {
-                recycler.visibility = View.INVISIBLE
+                recycler.visibility = View.GONE
                 empty_view.visibility = View.VISIBLE
                 trans.visibility = View.VISIBLE
             } else {

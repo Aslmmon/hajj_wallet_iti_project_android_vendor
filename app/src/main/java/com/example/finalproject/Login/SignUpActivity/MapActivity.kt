@@ -43,7 +43,7 @@ class MapActivity : AppCompatActivity(),OnMapReadyCallback, GoogleMap.OnMyLocati
 
         googleMap!!.isMyLocationEnabled
         googleMap.setOnMapClickListener {
-            Toast.makeText(this,"location is + ${it.latitude.toString()} ",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"location is Accessed",Toast.LENGTH_SHORT).show()
             val returnIntent = intent
             returnIntent.putExtra("LatLng", it)
             returnIntent.putExtra("Latitude", it.latitude)

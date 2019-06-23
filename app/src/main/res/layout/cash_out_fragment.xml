@@ -38,6 +38,7 @@
     <Button
             android:id="@+id/createWallet"
             style="@style/btnStyle"
+        android:visibility="invisible"
             android:layout_width="match_parent"
             android:layout_gravity="bottom"
             android:layout_margin="25dp"

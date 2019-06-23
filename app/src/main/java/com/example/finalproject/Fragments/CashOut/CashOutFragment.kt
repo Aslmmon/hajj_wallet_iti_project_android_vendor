@@ -26,7 +26,7 @@ class CashOutFragment : Fragment() {
     }
 
     private lateinit var viewModel: CashOutViewModel
-    
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         (activity as? AppCompatActivity)?.supportActionBar?.title = getString(R.string.cash_out)
@@ -39,30 +39,32 @@ class CashOutFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         Log.i("lifecycle", "on Activity Created")
-        viewModel = ViewModelProviders.of(this).get(CashOutViewModel::class.java)
-
     }
 
     override fun onResume() {
         super.onResume()
 
+        viewModel = ViewModelProviders.of(this).get(CashOutViewModel::class.java)
         val textToken = activity!!.intent.getStringExtra("token")
         Log.i("lifecycle", "on Resume")
         viewModel.getResult(textToken)
         viewModel.getCheckResult.observe(this, Observer {
             if (it == null) {
-                balanceNumber.text = "No Wallet"
-                balance.text = ""
+                balance.text = "No Wallet"
+                balanceNumber.text = ""
+                createWallet.visibility = View.VISIBLE
             } else {
-                balanceNumber.text = it.totalBalance.toString()
-                //    createWallet.isClickable = false
+//                (data.moneyPaid / 100.0 ).toString()
+                balanceNumber.text = (it.totalBalance / 100.0).toString()
+                balance.text = "your balance is "
+                createWallet.visibility = View.GONE
 
             }
         })
 
         createWallet.setOnClickListener {
             if (!createWallet.isClickable) {
-                Toast.makeText(activity,"You Have Wallet Already Created !",Toast.LENGTH_SHORT).show()
+                Toast.makeText(activity, "You Have Wallet Already Created !", Toast.LENGTH_SHORT).show()
             } else {
 
                 val intent = Intent(activity, CreateWalletActivity::class.java)

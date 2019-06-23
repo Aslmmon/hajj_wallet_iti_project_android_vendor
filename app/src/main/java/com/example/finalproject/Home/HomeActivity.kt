@@ -1,5 +1,6 @@
 package com.example.finalproject.Home
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -12,13 +13,20 @@ import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import android.view.Menu
+import android.widget.Toast
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
+import com.example.finalproject.Login.SignInActivity.SignInActivity
+import com.example.finalproject.Model.SignOut.SignOutResponse
 import com.example.finalproject.R
+import com.example.finalproject.Retrofit.service
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.nav_header_home.*
 import kotlinx.android.synthetic.main.nav_header_home.view.*
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -50,10 +58,6 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         navView.getHeaderView(0).theUserName.text = usr
         nav_view.getHeaderView(0).emailUser.text = email
 
-        //  val user = intent.getSerializableExtra("user") as Pilgrim
-        Log.i("account", "token ${token}")
-        Log.i("account", "first name ${usr}")
-        Log.i("account", "email ${email}")
 
         // Log.i(TAG, "user ${user}")
     }
@@ -80,6 +84,22 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
             R.id.nav_cash_out -> {
                 nav!!.navigate(R.id.cashOutFragment)
+            }
+            R.id.signOut -> {
+                val intent = intent
+                val tokenTaken = intent.getStringExtra("token")
+                service.retrofitService.LogOut(token = tokenTaken).enqueue(object : Callback<SignOutResponse>{
+                    override fun onFailure(call: Call<SignOutResponse>, t: Throwable) {
+                        Toast.makeText(this@HomeActivity,"Error ${t.message.toString()}",Toast.LENGTH_SHORT).show()
+                    }
+
+                    override fun onResponse(call: Call<SignOutResponse>, response: Response<SignOutResponse>) {
+                        Toast.makeText(this@HomeActivity,"${response.body()!!.detail}",Toast.LENGTH_SHORT).show()
+                        startActivity(Intent(this@HomeActivity,SignInActivity::class.java))
+                        finish()
+                    }
+
+                })
             }
 
         }

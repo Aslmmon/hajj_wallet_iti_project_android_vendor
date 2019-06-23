@@ -42,22 +42,20 @@ class TransActionsViewModel : ViewModel() {
 //    }
 
 
-
-
-    public fun getPaymentsFromApi(token:String) {
+    public fun getPaymentsFromApi(token: String) {
         coroutineScope.launch {
 
-            Log.i("shared","token is ${token}")
+            Log.i("shared", "token is ${token}")
             //  sharedPreference = getSharedPreferences("token", Context.MODE_PRIVATE)
             //var getThePayments = service.retrofitService.getTransactions("Token "+tokenGot)
-            var getResults = service.retrofitService.getTransactions("Token "+token)
+            var getResults = service.retrofitService.getTransactions("Token " + token)
             try {
                 // this will run on a thread managed by Retrofit //  val Result = getThePayments.await()
                 val result = getResults.await()
-               // Log.i("win", "success of ${Result.size}")
+                // Log.i("win", "success of ${Result.size}")
                 if (Result != null) {
                     _getTransactions.value = result
-                }else {
+                } else {
                     Log.i("win", "no results")
                     _getTransactions.value = null
                 }

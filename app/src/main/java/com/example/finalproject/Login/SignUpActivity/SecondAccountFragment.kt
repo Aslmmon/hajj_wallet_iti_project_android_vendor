@@ -8,9 +8,10 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.EditText
-import android.widget.Toast
+import android.widget.*
 import androidx.fragment.app.Fragment
+import com.example.finalproject.Login.SignUpActivity.Category.CategoryActivity
+import com.example.finalproject.Login.SignUpActivity.Nationality.NationalityActivity
 
 import com.example.finalproject.R
 import com.google.android.gms.maps.model.LatLng
@@ -30,11 +31,22 @@ private const val ARG_PARAM2 = "param2"
  * A simple [Fragment] subclass.
  *
  */
-class SecondAccountFragment : Fragment(), BlockingStep {
+class SecondAccountFragment : Fragment(), BlockingStep, AdapterView.OnItemSelectedListener {
+    override fun onNothingSelected(p0: AdapterView<*>?) {
+
+    }
+
+    override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
+        val text = p0!!.getItemAtPosition(p2)
+    }
+
     val GET_LOCATION_REQUEST = 1
-    var Latitude: String? = null
-    var Longtitude: String? = null
+    val PICK_NATIONALITY_REQUEST = 5
+    val PICK_CATEGORIES = 6
     var LatLng: LatLng? = null
+    var nationality: String? = null
+    var category: String? = null
+
 
     override fun onBackClicked(callback: StepperLayout.OnBackClickedCallback?) {
         callback!!.goToPrevStep()
@@ -49,10 +61,10 @@ class SecondAccountFragment : Fragment(), BlockingStep {
 
         if (isUserDataValid()) {
             val parentActivity = (activity as SignUpActivity)
-            parentActivity.userSignUp.nationality = nationality.text.toString()
-            parentActivity.userSignUp.category = category.text.toString()
+
+            parentActivity.userSignUp.nationality = myNationality.text.toString()
+            parentActivity.userSignUp.category = myCategory.text.toString()
             parentActivity.userSignUp.crn = crn.text.toString()
-            parentActivity.userSignUp.code = code.text.toString()
             parentActivity.userSignUp.password1 = password1.text.toString()
             parentActivity.userSignUp.password2 = password2.text.toString()
             parentActivity.userSignUp.store_name = store.text.toString()
@@ -61,18 +73,19 @@ class SecondAccountFragment : Fragment(), BlockingStep {
 
             callback!!.complete()
         } else {
-            Toast.makeText(activity,"Complete Requested Fields",Toast.LENGTH_SHORT).show()
+            Toast.makeText(activity, "Complete Requested Fields", Toast.LENGTH_SHORT).show()
         }
 
 
     }
 
+//    isFieldValid(context!!, category) &&
+
     private fun isUserDataValid(): Boolean {
-        return isFieldValid(context!!, nationality) && isFieldValid(context!!, category) &&
-                isFieldValid(context!!, crn) && isFieldValid(context!!, code)
+        return isFieldValid(context!!, crn)
                 && isFieldValid(context!!, password1) && isFieldValid(context!!, password2)
-                && isFieldValid(context!!, store) && isPasswordValid(context!!,password1)
-                && isPasswordValid(context!!,password2) && passwordsMatch(context!!,password1,password2)
+                && isFieldValid(context!!, store) && isPasswordValid(context!!, password1)
+                && isPasswordValid(context!!, password2) && passwordsMatch(context!!, password1, password2)
 
     }
 
@@ -97,13 +110,29 @@ class SecondAccountFragment : Fragment(), BlockingStep {
             Log.d("tap", "Selected")
         }
 
-        // Return the fragment view/layout
+
+
         return view
 
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         when (requestCode) {
+            PICK_CATEGORIES -> {
+                if (data != null) {
+                    category =
+                            (data.getStringExtra("category"))
+                    myCategory.text = category
+                }
+            }
+
+            PICK_NATIONALITY_REQUEST -> {
+                if (data != null) {
+                    nationality =
+                            (data.getStringExtra("nationality"))
+                    myNationality.text = nationality
+                }
+            }
             GET_LOCATION_REQUEST -> {
                 if (data != null) {
                     var bundle = data.extras
@@ -114,8 +143,6 @@ class SecondAccountFragment : Fragment(), BlockingStep {
                     Log.i("Location", "Your Location in SecondACtivityFragment is ${latitdue} adnd ${longtitude}")
                     Log.i("Location", "Your Location in SecondACtivityFragment is ${LatLng}")
                     Log.i("show me Location ", "Your Location in SecondACtivityFragment is ${LatLng!!.latitude} adnd ${LatLng!!.longitude} ")
-
-
                 }
 
             }
@@ -125,7 +152,7 @@ class SecondAccountFragment : Fragment(), BlockingStep {
 
 
     fun isFieldValid(context: Context, editText: EditText): Boolean {
-        return if (editText.text.toString().isEmpty()) {
+        return if (editText.text.trim().toString().isEmpty()) {
             editText.requestFocus()
             false
         } else
@@ -134,7 +161,7 @@ class SecondAccountFragment : Fragment(), BlockingStep {
 
 
     fun isEmailValid(context: Context, editText: EditText): Boolean {
-        return if (android.util.Patterns.EMAIL_ADDRESS.matcher(editText.text.toString()).matches())
+        return if (android.util.Patterns.EMAIL_ADDRESS.matcher(editText.text.trim().toString()).matches())
             true
         else {
             editText.error = context.getString(R.string.not_valid_email)
@@ -147,7 +174,7 @@ class SecondAccountFragment : Fragment(), BlockingStep {
     }
 
     private fun isNumericPassword(context: Context, editText: EditText): Boolean {
-        val isNumericOnly = editText.text.toString().toIntOrNull()
+        val isNumericOnly = editText.text.trim().toString().toIntOrNull()
         return if (isNumericOnly != null) {
             editText.error = context.getString(R.string.password_is_numbers)
             editText.requestFocus()
@@ -156,9 +183,26 @@ class SecondAccountFragment : Fragment(), BlockingStep {
             false
     }
 
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
+        myNationality.setOnClickListener {
+
+            startActivityForResult(
+                    Intent(context, NationalityActivity::class.java),
+                    PICK_NATIONALITY_REQUEST
+            )
+        }
+
+        myCategory.setOnClickListener {
+            startActivityForResult(
+                    Intent(context, CategoryActivity::class.java),
+                    PICK_CATEGORIES
+            )
+        }
+    }
 
     fun passwordsMatch(context: Context, password1: EditText, password2: EditText): Boolean {
-        if (password1.text.toString() == password2.text.toString())
+        if (password1.text.trim().toString() == password2.text.trim().toString())
             return true
         else {
             password2.error = context.getString(R.string.password_doesnt_match)
@@ -167,7 +211,7 @@ class SecondAccountFragment : Fragment(), BlockingStep {
     }
 
     private fun isPasswordLengthValid(context: Context, editText: EditText): Boolean {
-        return if (editText.text.toString().length > 7)
+        return if (editText.text.trim().toString().length > 7)
             true
         else {
             editText.error = context.getString(R.string.password_is_short)

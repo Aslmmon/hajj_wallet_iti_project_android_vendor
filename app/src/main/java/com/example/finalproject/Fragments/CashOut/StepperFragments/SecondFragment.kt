@@ -41,7 +41,7 @@ class SecondFragment : Fragment(), BlockingStep {
 
 
         callback!!.complete()
-        parentActivity.finish()
+        //parentActivity.finish()
 
     }
 

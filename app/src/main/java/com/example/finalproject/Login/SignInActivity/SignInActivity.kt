@@ -15,6 +15,7 @@ import com.example.finalproject.Model.UserLogin.UserResponse
 import com.example.finalproject.R
 import com.example.finalproject.Retrofit.service
 import kotlinx.android.synthetic.main.activity_sign_in.*
+import kotlinx.android.synthetic.main.fragment_account.*
 import okhttp3.ResponseBody
 import retrofit2.Call
 import retrofit2.Callback
@@ -32,7 +33,7 @@ class SignInActivity : AppCompatActivity() {
             val progressDialog = ProgressDialog(this)
             progressDialog.setTitle("Logging in")
             progressDialog.show()
-            service.retrofitService.login(userNAme = userName.text.toString(), pass = CRNNumber.text.toString())
+            service.retrofitService.login(userNAme = userName.text.toString(), pass = pass.text.toString())
                     .enqueue(object : Callback<UserResponse> {
                         override fun onFailure(call: Call<UserResponse>, t: Throwable) {
                             Log.i("result", "failer due to ${t.message.toString()}")
@@ -46,12 +47,11 @@ class SignInActivity : AppCompatActivity() {
 
                             if (response != null) {
                                 if (response.isSuccessful) {
-                                    sharedPreference = getSharedPreferences("LOGIN", Context.MODE_PRIVATE)
-                                    val editor: SharedPreferences.Editor = sharedPreference.edit()
-                                    editor.putString("username", userName.text.toString())
-                                    editor.putString("password", CRNNumber.text.toString())
-                                    Log.i("eshta", "Saved Done ")
-                                    editor.commit()
+                                    if (checkBox.isChecked)
+                                        cacheUserData()
+                                    else
+                                        decacheUserData()
+
                                     var intent = Intent(this@SignInActivity, HomeActivity::class.java)
                                     intent.putExtra("token", response.body()!!.token)
                                     intent.putExtra("code", response.body()!!.vendor_details.code)
@@ -75,13 +75,30 @@ class SignInActivity : AppCompatActivity() {
         }
     }
 
+    private fun decacheUserData() {
+        val preferences = getSharedPreferences("LOGIN", Context.MODE_PRIVATE)
+        preferences.edit().clear().apply()
+    }
+
+    private fun cacheUserData() {
+        val sharedPreference = getSharedPreferences("LOGIN", Context.MODE_PRIVATE)
+        val editor: SharedPreferences.Editor = sharedPreference.edit()
+        editor.putString("username", userName.text.toString())
+        editor.putString("password", pass.text.toString())
+        editor.apply()
+
+    }
+
     private fun initializeWithSharedPrefrences() {
         sharedPreference = getSharedPreferences("LOGIN", Context.MODE_PRIVATE)
         val text = sharedPreference.getString("username", " ")
-        val pass = sharedPreference.getString("password", " ")
+        val passw = sharedPreference.getString("password", " ")
         Log.i("hello", "your username is  is $text")
         Log.i("hello", "your username is  is $pass")
+
+        if (!text.isNullOrEmpty() || !passw.isNullOrEmpty())
+            checkBox.isChecked = false
         userName.setText(text)
-        CRNNumber.setText(pass)
+        pass.setText(passw)
     }
 }

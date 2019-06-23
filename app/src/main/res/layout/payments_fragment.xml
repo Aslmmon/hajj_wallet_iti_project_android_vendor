@@ -36,6 +36,7 @@
             android:id="@+id/trans"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:visibility="invisible"
             android:layout_gravity="center"
             android:src="@drawable/trans" />
 
@@ -46,10 +47,11 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="28sp"
+            android:visibility="invisible"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:fontFamily="@font/cookie"
-            android:text="No Transactions Yet" />
+            android:text="@string/no_transactions_yet" />
     </LinearLayout>
 
 

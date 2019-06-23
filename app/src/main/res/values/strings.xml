@@ -59,6 +59,14 @@
     <string name="password_is_short">Password must be at least 8 letters</string>
 
     <string name="password_doesnt_match">Passwords doesn\'t match</string>
+    <string name="balance">Balance</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="no_transactions_yet">No Transactions Yet</string>
+
+    <string-array name="nationalities">
+        <item>Egypt</item>
+        <item>Saudi Arabia</item>
+    </string-array>
 
 
 </resources>

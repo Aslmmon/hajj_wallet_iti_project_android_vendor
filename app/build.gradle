@@ -92,5 +92,12 @@ dependencies {
     implementation 'com.google.android.gms:play-services-maps:15.0.1'
     implementation 'com.google.maps.android:android-maps-utils:0.5'
 
+    //loading button
+    implementation 'br.com.simplepass:loading-button-android:2.1.5'
+
+
+
+    //segmented button
+    implementation 'info.hoang8f:android-segmented:1.0.6'
 
 }

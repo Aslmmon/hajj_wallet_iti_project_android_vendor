@@ -12,7 +12,6 @@ data class UserSignUp(
         var nationality: String?,
         var category: String?,
         var crn: String?,
-        var code: String?,
         var password1: String?,
         var password2: String?,
         var store_name: String?,

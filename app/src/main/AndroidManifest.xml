@@ -15,25 +15,56 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Login.SignUpActivity.MapActivity"></activity>
-        <activity android:name=".Fragments.CashOut.StepperFragments.CreateWalletActivity" />
-        <activity android:name=".ChargeActivity" />
-        <activity android:name=".ChargeWalletActivity" />
+        <activity android:name=".Login.SignUpActivity.Category.CategoryActivity"></activity>
+        <activity android:name=".Login.SignUpActivity.Nationality.NationalityActivity" />
+        <activity
+            android:name=".Login.SignUpActivity.MapActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragments.CashOut.StepperFragments.CreateWalletActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChargeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChargeWalletActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Home.HomeActivity"
+            android:configChanges="orientation"
             android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Login.SignUpActivity.SignUpActivity" />
-        <activity android:name=".Login.SignInActivity.SignInActivity" />
-        <activity android:name=".OnBoarding.OnBoardingActivity" />
-        <activity android:name=".Splash.SplashActivity">
+        <activity
+            android:name=".Login.SignUpActivity.SignUpActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login.SignInActivity.SignInActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OnBoarding.OnBoardingActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Splash.SplashActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="preloaded_fonts"

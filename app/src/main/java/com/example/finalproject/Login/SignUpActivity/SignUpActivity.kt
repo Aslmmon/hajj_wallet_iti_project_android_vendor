@@ -5,6 +5,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
+import android.widget.Spinner
 import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -19,7 +22,9 @@ import com.stepstone.stepper.VerificationError
 import kotlinx.android.synthetic.main.activity_sign_up.*
 import kotlinx.android.synthetic.main.fragment_second_account.*
 
-class SignUpActivity : AppCompatActivity(), StepperLayout.StepperListener {
+class SignUpActivity : AppCompatActivity(), StepperLayout.StepperListener  {
+
+
     lateinit var userSignUp: UserSignUp
     private lateinit var viewModel: SignUpViewModel
 
@@ -27,9 +32,11 @@ class SignUpActivity : AppCompatActivity(), StepperLayout.StepperListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
+
+
         userSignUp = UserSignUp(
                 null, null, null, null, null,
-                null, null, null, null, null, null,null,
+                null, null, null, null,  null,null,
                 null, null
         )
 
@@ -45,6 +52,7 @@ class SignUpActivity : AppCompatActivity(), StepperLayout.StepperListener {
     }
 
     override fun onError(verificationError: VerificationError?) {
+        //passwordEsam : 110588
     }
 
     override fun onReturn() {

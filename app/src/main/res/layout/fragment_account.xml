@@ -85,20 +85,54 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/last_name" />
 
-    <EditText
-        android:id="@+id/gender"
-        style="@style/InputTextField"
-        android:layout_width="186dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="24dp"
-        android:drawableEnd="@drawable/email"
-        android:hint="@string/gender"
-        android:inputType="text"
-        android:maxEms="1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/phone_number" />
+    <info.hoang8f.android.segmented.SegmentedGroup xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/segmented"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        segmentedgroup:layout_constraintEnd_toEndOf="parent"
+        segmentedgroup:layout_constraintStart_toStartOf="parent"
+        segmentedgroup:layout_constraintTop_toBottomOf="@+id/phone_number"
+        segmentedgroup:sc_border_width="2dp"
+        segmentedgroup:sc_checked_text_color="@color/black"
+        segmentedgroup:sc_corner_radius="6dp"
+        segmentedgroup:sc_tint_color="@color/darkBlue">
+
+        <RadioButton
+            android:id="@+id/male_radio_button"
+            style="@style/RadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="male" />
+
+        <RadioButton
+            android:id="@+id/female_radio_button"
+            style="@style/RadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="female" />
+    </info.hoang8f.android.segmented.SegmentedGroup>
+
+    <!--<EditText-->
+        <!--android:id="@+id/gender"-->
+        <!--style="@style/InputTextField"-->
+        <!--android:layout_width="186dp"-->
+        <!--android:layout_height="31dp"-->
+        <!--android:layout_marginTop="24dp"-->
+        <!--android:drawableEnd="@drawable/email"-->
+        <!--android:hint="@string/gender"-->
+        <!--android:inputType="text"-->
+        <!--android:maxEms="1"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.482"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/phone_number" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -57,30 +57,25 @@ class CreateWalletActivity : AppCompatActivity(), StepperLayout.StepperListener 
 
 
     override fun onCompleted(completeButton: View?) {
+        val progressDialog = ProgressDialog(this)
+        progressDialog.setTitle("Creating Wallet")
+        progressDialog.show()
 
         val intent = intent
         val token = intent.getStringExtra("token")
-        Toast.makeText(this@CreateWalletActivity,"Your token is ${token} ",Toast.LENGTH_SHORT).show()
         viewModel.CreateWallet(createWalletbody, this,token)
-//        viewModel.response.observe(this, Observer {
-//            if(it != null ){
-//                Toast.makeText(this@CreateWalletActivity,"Done Created Your Wallet ",Toast.LENGTH_SHORT).show()
-//               // finish()
-//                progressDialog.dismiss()
-//                returnToCashOut()
-//                Log.i("eshta","Created in response.observe ")
-//            }else {
-//                progressDialog.dismiss()
-//                Log.i("eshta","Created in Activity b3d else  ${it!!.success}")
-//                Toast.makeText(this,"Error in Creating",Toast.LENGTH_SHORT).show()
-//            }
-//        })
-//        progressDialog.dismiss()
+        viewModel.response.observe(this, Observer {
+            if(it != null ){
+                Toast.makeText(this@CreateWalletActivity,"Done Created Your Wallet ",Toast.LENGTH_SHORT).show()
+                Log.i("eshta","Created in response.observe ")
+                finish()
+            }else {
+                Toast.makeText(this,"Error in Creating",Toast.LENGTH_SHORT).show()
+            }
+        })
+        progressDialog.dismiss()
 
     }
 
-    private fun returnToCashOut() {
-        val intent = Intent (this@CreateWalletActivity, CashOutFragment::class.java)
-        startActivity(intent)
-    }
+
 }

@@ -30,13 +30,13 @@
             android:background="@color/white" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/signIn"
-        style="@style/btnStyle"
-        android:layout_width="match_parent"
-        android:layout_gravity="bottom"
-        android:layout_margin="25dp"
-        android:text="@string/print_it" />
+    <!--<Button-->
+        <!--android:id="@+id/signIn"-->
+        <!--style="@style/btnStyle"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_margin="25dp"-->
+        <!--android:text="@string/print_it" />-->
 
 
 </FrameLayout>

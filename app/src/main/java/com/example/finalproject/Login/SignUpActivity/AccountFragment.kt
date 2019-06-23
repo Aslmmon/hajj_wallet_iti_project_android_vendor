@@ -47,12 +47,12 @@ class AccountFragment : Fragment(), BlockingStep {
             parentActivity.userSignUp.first_name = first_name.text.toString()
             parentActivity.userSignUp.last_name = last_name.text.toString()
             parentActivity.userSignUp.phone_number = phone_number.text.toString()
-            parentActivity.userSignUp.gender = gender.text.toString()
+            parentActivity.userSignUp.gender = getGender()
 
 
             callback!!.goToNextStep()
-        }else {
-            Toast.makeText(activity,"Error in Fields ",Toast.LENGTH_SHORT).show()
+        } else {
+            Toast.makeText(activity, "Error in Fields ", Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -77,11 +77,20 @@ class AccountFragment : Fragment(), BlockingStep {
             true
     }
 
+    private fun getGender()
+            : String {
+        return when (segmented.checkedRadioButtonId) {
+            male_radio_button.id -> "M"
+            female_radio_button.id -> "F"
+            else -> ""
+        }
+    }
+
     private fun isUserDataValid(): Boolean {
         return isFieldValid(context!!, username) && isFieldValid(context!!, email) &&
-                isEmailValid(context!!, email) && isFieldValid(context!!,first_name)
-                && isFieldValid(context!!,last_name) && isFieldValid(context!!,phone_number)
-                && isFieldValid(context!!,gender)
+                isEmailValid(context!!, email) && isFieldValid(context!!, first_name)
+                && isFieldValid(context!!, last_name) && isFieldValid(context!!, phone_number)
+
 
     }
 

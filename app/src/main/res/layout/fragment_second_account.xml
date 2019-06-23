@@ -13,22 +13,33 @@
         android:layout_height="wrap_content"
         android:weightSum="2"
         android:orientation="horizontal">
-        <EditText
-            android:id="@+id/nationality"
-            style="@style/InputTextField"
-            android:drawableEnd="@drawable/email"
-            android:hint="@string/nationality"
-            android:inputType="text"
-            android:layout_weight="1"/>
-
-        <EditText
-            android:id="@+id/category"
+        <TextView
+            android:id="@+id/myNationality"
             style="@style/InputTextField"
             android:layout_weight="1"
+            android:layout_marginTop="16dp"
             android:drawableEnd="@drawable/email"
-            android:hint="@string/category"
-            android:inputType="text"
-           />
+            android:hint="@string/nationality"/>
+
+
+
+        <TextView
+            android:id="@+id/myCategory"
+            style="@style/InputTextField"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:drawableEnd="@drawable/email"
+            android:hint="@string/category"/>
+
+
+        <!--<EditText-->
+            <!--android:id="@+id/category"-->
+            <!--style="@style/InputTextField"-->
+            <!--android:layout_weight="1"-->
+            <!--android:drawableEnd="@drawable/email"-->
+            <!--android:hint="@string/category"-->
+            <!--android:inputType="text"-->
+           <!--/>-->
 
     </LinearLayout>
     <LinearLayout
@@ -46,21 +57,20 @@
             android:inputType="number"
            />
 
+
         <EditText
-            android:id="@+id/code"
-            android:layout_weight="1"
+            android:id="@+id/store"
             style="@style/InputTextField"
-            android:layout_marginBottom="20dp"
             android:drawableEnd="@drawable/email"
-            android:hint="@string/code"
-            android:inputType="textPassword"
-             />
+            android:hint="@string/store"
+            android:inputType="text"
+            android:layout_weight="1" />
 
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:weightSum="3"
+        android:weightSum="2"
         android:orientation="horizontal">
 
         <EditText
@@ -79,13 +89,7 @@
             android:drawableEnd="@drawable/email"
             android:hint="@string/password2"
             android:inputType="textPassword"/>
-        <EditText
-            android:id="@+id/store"
-            style="@style/InputTextField"
-            android:drawableEnd="@drawable/email"
-            android:hint="@string/store"
-            android:inputType="text"
-            android:layout_weight="1" />
+
 
 
 

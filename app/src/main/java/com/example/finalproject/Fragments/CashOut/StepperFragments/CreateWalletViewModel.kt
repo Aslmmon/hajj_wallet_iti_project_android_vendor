@@ -18,33 +18,31 @@ import retrofit2.Response
 class CreateWalletViewModel : ViewModel() {
 
 
-    private val _response = MutableLiveData<SuccessWalletCreated>()
-    val response: LiveData<SuccessWalletCreated>
+    private val _response = MutableLiveData<String>()
+    val response: LiveData<String>
         get() = _response
 
 
-      fun CreateWallet( createWalletBody: CreateWalletBody, context: Context,token:String) {
+    fun CreateWallet(createWalletBody: CreateWalletBody, context: Context, token: String) {
 
-         // var tokenGot = "077f89fe6b85ed46cf9c18e17d592ce1886435ae"
-          service.retrofitService.createWallet("Token "+token,createWalletBody).enqueue(object:Callback<SuccessWalletCreated>{
-              override fun onFailure(call: Call<SuccessWalletCreated>, t: Throwable) {
-                  Toast.makeText(context, t.message, Toast.LENGTH_SHORT).show()
-                Log.i("ok","${t.message}")
-              }
+        // var tokenGot = "077f89fe6b85ed46cf9c18e17d592ce1886435ae"
+        service.retrofitService.createWallet("Token " + token, createWalletBody).enqueue(object : Callback<SuccessWalletCreated> {
+            override fun onFailure(call: Call<SuccessWalletCreated>, t: Throwable) {
+                Toast.makeText(context, t.message, Toast.LENGTH_SHORT).show()
+                Log.i("ok", "${t.message}")
+                _response.value = null
+            }
 
-              override fun onResponse(call: Call<SuccessWalletCreated>, response: Response<SuccessWalletCreated>) {
-                  if (response.isSuccessful){
-                      _response.value = response.body()
-                   //   Log.i("eshta","Created ")
-                      Log.i("eshta","Created 1 in ViewMode.Create${response.body()!!.success}")
+            override fun onResponse(call: Call<SuccessWalletCreated>, response: Response<SuccessWalletCreated>) {
+                if (response.isSuccessful) {
+                    if (response.body() != null) {
+                        _response.value = response.body()!!.success
+                    }
+                } else {
+                    Toast.makeText(context, "error  in Created ViewModel  ${response.errorBody()}", Toast.LENGTH_SHORT).show()
+                }
 
-                      Toast.makeText(context,"Done Created Your Wallet , Come in Seconds ",Toast.LENGTH_SHORT).show()
-
-                  }else {
-                      Toast.makeText(context,"error  in Created ViewModel  ${response.errorBody()}",Toast.LENGTH_SHORT).show()
-                  }
-
-              }
+            }
         })
     }
 }
