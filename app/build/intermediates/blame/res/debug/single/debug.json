@@ -36,12 +36,20 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ms_ic_chevron_right.png.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable-hdpi-v4\\ms_ic_chevron_right.png"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\drawable-xxxhdpi-v4\\design_ic_visibility_off.png"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\504045e22566c2e409db5849d63bc6cb\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ms_circle.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable\\ms_circle.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -112,6 +120,10 @@
         "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\drawable\\wallet.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ms_ic_chevron_right.png.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable-xxhdpi-v4\\ms_ic_chevron_right.png"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_mtrl_fast_out_slow_in.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\interpolator\\mtrl_fast_out_slow_in.xml"
     },
@@ -128,6 +140,10 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_amu_bubble_mask.9.png.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\drawable-xhdpi-v4\\amu_bubble_mask.9.png"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
@@ -138,6 +154,10 @@
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\layout\\fragment_first.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -224,8 +244,16 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\layout-v26\\abc_screen_toolbar.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_default_balloon.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_default_balloon.kml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\animator_card_flip_right_in.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\b1d335c3c392dcf676174bffe8b47024\\res\\animator\\card_flip_right_in.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
@@ -256,6 +284,14 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_money.png.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\drawable\\money.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
@@ -278,6 +314,10 @@
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_amu_info_window.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\layout\\amu_info_window.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -320,6 +360,10 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_gradient.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\b1d335c3c392dcf676174bffe8b47024\\res\\drawable\\card_gradient.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_seek_thumb.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
@@ -330,6 +374,10 @@
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_ground_overlay.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_ground_overlay.kml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -352,12 +400,12 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
-        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
-    },
-    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\layout\\mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -422,6 +470,14 @@
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_onboarding_view.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\1d6179dd19fc78143698140d3b904d9f\\res\\layout\\onboarding_view.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\animator_card_flip_left_in.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\b1d335c3c392dcf676174bffe8b47024\\res\\animator\\card_flip_left_in.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_document_nest.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_document_nest.kml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_title_material.xml.flat",
@@ -500,6 +556,10 @@
         "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_poly_style_boolean_alpha.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_poly_style_boolean_alpha.kml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
@@ -526,6 +586,10 @@
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ms_ic_chevron_right.png.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable-xhdpi-v4\\ms_ic_chevron_right.png"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
@@ -652,6 +716,10 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\color\\abc_tint_switch_track.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_amu_webview.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\layout\\amu_webview.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
@@ -716,6 +784,14 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\animator\\mtrl_fab_hide_motion_spec.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_nested_folders.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_nested_folders.kml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_basic_placemark.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_basic_placemark.kml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light_focused.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\504045e22566c2e409db5849d63bc6cb\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
@@ -750,6 +826,10 @@
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_check_white_24dp.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\1d6179dd19fc78143698140d3b904d9f\\res\\drawable\\ic_check_white_24dp.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_unchecked.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\ca96893f4a6d32eae28e22087847bdab\\res\\drawable\\radio_unchecked.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
@@ -792,6 +872,14 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_unknwown_folder.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_unknwown_folder.kml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_amu_bubble_mask.9.png.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\drawable-xxhdpi-v4\\amu_bubble_mask.9.png"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_light.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\color\\abc_secondary_text_material_light.xml"
     },
@@ -814,6 +902,10 @@
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_view_category.xml.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\layout\\item_view_category.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -896,8 +988,16 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ms_animated_vector_warning_to_circle_24dp.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable\\ms_animated_vector_warning_to_circle_24dp.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_light.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_text_color.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\ca96893f4a6d32eae28e22087847bdab\\res\\drawable\\button_text_color.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -956,8 +1056,16 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\anim\\abc_fade_in.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second_account.xml.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\layout\\fragment_second_account.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_unsupported.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_unsupported.kml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_form_inputs.xml.flat",
@@ -1020,6 +1128,10 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_ms_dot.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\layout\\ms_dot.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_slideshow.xml.flat",
         "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\drawable-v21\\ic_menu_slideshow.xml"
     },
@@ -1036,12 +1148,20 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_category.xml.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\layout\\activity_category.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\504045e22566c2e409db5849d63bc6cb\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\504045e22566c2e409db5849d63bc6cb\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_amu_bubble_shadow.9.png.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\drawable-xhdpi-v4\\amu_bubble_shadow.9.png"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -1140,16 +1260,20 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ms_ic_chevron_left.png.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable-hdpi-v4\\ms_ic_chevron_left.png"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_tab_icon.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_switch_track.xml.flat",
-        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\color-v23\\abc_tint_switch_track.xml"
-    },
-    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_switch_track.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\color-v23\\abc_tint_switch_track.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_button_bar_material.xml.flat",
@@ -1204,6 +1328,10 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_checked.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\ca96893f4a6d32eae28e22087847bdab\\res\\drawable\\radio_checked.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_out.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\anim\\abc_fade_out.xml"
     },
@@ -1240,6 +1368,10 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_visibility_ground_overlay.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_visibility_ground_overlay.kml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
     },
@@ -1264,6 +1396,10 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ms_vector_circle_24dp.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable\\ms_vector_circle_24dp.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sign.png.flat",
         "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\drawable\\sign.png"
     },
@@ -1272,12 +1408,20 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ms_ic_chevron_left.png.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable-xhdpi-v4\\ms_ic_chevron_left.png"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_support_simple_spinner_dropdown_item.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b26caa86ad37b2be1a4ce0af8206cd9\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_slash_slash_gradiet.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\b1d335c3c392dcf676174bffe8b47024\\res\\drawable\\slash_slash_gradiet.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_security.png.flat",
@@ -1308,6 +1452,14 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\b5866e3c919c64b56a029e9fbb59bb17\\res\\layout\\notification_template_big_media.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logout.png.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\drawable\\logout.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_done_white_48dp.png.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\a8dbdc98610c1bf45c7730f22cacff1c\\res\\drawable\\ic_done_white_48dp.png"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_borderless_text_material.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
@@ -1326,6 +1478,10 @@
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-ldrtl-hdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_trans.png.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\drawable\\trans.png"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
@@ -1356,6 +1512,10 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_basic_folder.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_basic_folder.kml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mtrl_snackbar_background.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\drawable\\mtrl_snackbar_background.xml"
     },
@@ -1364,8 +1524,16 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\anim\\abc_tooltip_exit.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_charge.xml.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\layout\\activity_charge.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_transaction.png.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\drawable\\transaction.png"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -1412,6 +1580,10 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_edit_btn.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\b1d335c3c392dcf676174bffe8b47024\\res\\drawable\\background_edit_btn.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
@@ -1440,6 +1612,14 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\animator\\mtrl_btn_state_list_anim.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_ms_step_tab.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\layout\\ms_step_tab.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_extended_data.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_extended_data.kml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\layout\\design_layout_snackbar.xml"
     },
@@ -1460,12 +1640,24 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_view_nationality.xml.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\layout\\item_view_nationality.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b26caa86ad37b2be1a4ce0af8206cd9\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_ms_tabs_container.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\layout\\ms_tabs_container.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_map.xml.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\layout\\activity_map.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -1506,6 +1698,14 @@
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar_include.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\layout\\mtrl_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_poly_style_boolean_numeric.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_poly_style_boolean_numeric.kml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_multigeometry_placemarks.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_multigeometry_placemarks.kml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_singlechoice_material.xml.flat",
@@ -1552,6 +1752,10 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ms_ic_check.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable\\ms_ic_check.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b26caa86ad37b2be1a4ce0af8206cd9\\res\\drawable-v21\\notification_action_background.xml"
     },
@@ -1576,12 +1780,28 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\interpolator\\mtrl_linear_out_slow_in.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_nationality.xml.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\layout\\activity_nationality.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_pay_btn.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\b1d335c3c392dcf676174bffe8b47024\\res\\drawable\\background_pay_btn.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_share.xml.flat",
         "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\drawable-v21\\ic_menu_share.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ms_ic_chevron_left.png.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable-mdpi-v4\\ms_ic_chevron_left.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ms_vertical_tab_divider.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable\\ms_vertical_tab_divider.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_navigation_view.xml.flat",
@@ -1594,6 +1814,10 @@
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_multichoice_material.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_anychart.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\9abb83b30d6556fa0601b776209b326d\\res\\layout\\view_anychart.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
@@ -1616,6 +1840,10 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ms_vector_warning_24dp.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable\\ms_vector_warning_24dp.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
     },
@@ -1626,6 +1854,10 @@
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_navigation_empty_icon.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_ground_overlay_color.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_ground_overlay_color.kml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",
@@ -1660,6 +1892,10 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\animator\\mtrl_fab_show_motion_spec.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_nested_multigeometry.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_nested_multigeometry.kml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_text_cursor_material.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable\\abc_text_cursor_material.xml"
     },
@@ -1668,8 +1904,16 @@
         "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ms_tab_container_pre_lollipop_background.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable\\ms_tab_container_pre_lollipop_background.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\drawable-xxxhdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_transactionnnnn.png.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\drawable-v21\\transactionnnnn.png"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_dark.xml.flat",
@@ -1708,8 +1952,16 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ms_ic_chevron_left.png.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable-xxhdpi-v4\\ms_ic_chevron_left.png"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_amu_bubble_shadow.9.png.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\drawable-xxhdpi-v4\\amu_bubble_shadow.9.png"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -1748,16 +2000,20 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_account.xml.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\layout\\fragment_account.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\animator_design_fab_show_motion_spec.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\animator\\design_fab_show_motion_spec.xml"
     },
     {
-        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_mtrl_linear.xml.flat",
-        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\interpolator\\mtrl_linear.xml"
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ms_default_button_background.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable\\ms_default_button_background.xml"
     },
     {
-        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\menu_home.xml.flat",
-        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\menu\\home.xml"
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_mtrl_linear.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\interpolator\\mtrl_linear.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_home_drawer.xml.flat",
@@ -1766,6 +2022,10 @@
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_amu_text_bubble.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\layout\\amu_text_bubble.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1928,12 +2188,20 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b26caa86ad37b2be1a4ce0af8206cd9\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\font_goblin_one.xml.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\font\\goblin_one.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_light.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_signout.png.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\drawable\\signout.png"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -2000,6 +2268,10 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\color\\mtrl_tabs_ripple_color.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_create_wallet.xml.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\layout\\activity_create_wallet.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
@@ -2044,6 +2316,14 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_multiple_placemarks.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_multiple_placemarks.kml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_draw_order_ground_overlay.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_draw_order_ground_overlay.kml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\504045e22566c2e409db5849d63bc6cb\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
@@ -2058,6 +2338,10 @@
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_ballon_gx_prefix.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_ballon_gx_prefix.kml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -2144,6 +2428,10 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_default.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\a8dbdc98610c1bf45c7730f22cacff1c\\res\\drawable\\shape_default.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light_normal.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\504045e22566c2e409db5849d63bc6cb\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
@@ -2208,6 +2496,14 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_ms_stepper_layout.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\layout\\ms_stepper_layout.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_inline_style.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_inline_style.kml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\504045e22566c2e409db5849d63bc6cb\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
@@ -2248,6 +2544,14 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\color\\mtrl_btn_bg_color_selector.xml"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ms_animated_vector_circle_to_warning_24dp.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable\\ms_animated_vector_circle_to_warning_24dp.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
@@ -2280,6 +2584,10 @@
         "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_cdata.kml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\45f101986bd5fef4365bf4b58fb6da54\\res\\raw\\amu_cdata.kml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
@@ -2302,6 +2610,10 @@
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ms_ic_chevron_right.png.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable-mdpi-v4\\ms_ic_chevron_right.png"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -2334,6 +2646,14 @@
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_navigation_item.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ms_default_button_background.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable-v21\\ms_default_button_background.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ms_colorable_progress_bar.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\drawable\\ms_colorable_progress_bar.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_background_color.xml.flat",
@@ -2372,8 +2692,16 @@
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\403b2513882ce331c09f00c60d28afbb\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_cardformlayout.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\b1d335c3c392dcf676174bffe8b47024\\res\\layout\\cardformlayout.xml"
+    },
+    {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
         "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hafezah_logo.png.flat",
+        "source": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\src\\main\\res\\drawable\\hafezah_logo.png"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -2386,6 +2714,10 @@
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mtrl_chip_checked_circle.xml.flat",
         "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\efd8d63dd39455ab2845092ab9e0049e\\res\\drawable\\ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_ms_step_tab_container.xml.flat",
+        "source": "C:\\Users\\Aslm\\.gradle\\caches\\transforms-2\\files-2.1\\2b1a6d44a77f8ebe38b157489cbce60d\\res\\layout\\ms_step_tab_container.xml"
     },
     {
         "merged": "D:\\ITI_Course_Content\\Final_project\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",

@@ -1,19 +1,23 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-83:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\e287d66e2f38cc66c74838d3c0f3ca42\AndroidManifest.xml:17:1-22:12
 MERGED from [me.tylerbwong:allaboard:1.1.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\1d6179dd19fc78143698140d3b904d9f\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\8f467ae131c2a9158ba38a22cbbc191c\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\137193873c2eeeb79ad71c352594a7c9\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\efd8d63dd39455ab2845092ab9e0049e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.stepstone.stepper:material-stepper:4.3.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\2b1a6d44a77f8ebe38b157489cbce60d\AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.AnyChart:AnyChart-Android:1.1.2] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\9abb83b30d6556fa0601b776209b326d\AndroidManifest.xml:2:1-17:12
+MERGED from [br.com.simplepass:loading-button-android:2.1.5] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\a8dbdc98610c1bf45c7730f22cacff1c\AndroidManifest.xml:2:1-11:12
 MERGED from [com.airbnb.android:lottie:3.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\59547f3b16bfdc805b632668c140e5b6\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\403b2513882ce331c09f00c60d28afbb\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\511baa42096b8f19f9658a45eb7f6ddb\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\131bd36fde0beac27413f475896bdf1d\AndroidManifest.xml:17:1-25:12
 MERGED from [com.github.parse-community.Parse-SDK-Android:fcm:1.20.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\f4add25f78eb657b9814e4faaebccc03\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\601a25af295e25fd8e769eaa5a2bac85\AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4ee1d3883dfc6868af50758c5ffe57ba\AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\1bccdfacdcd001e0d5b0064bd05916a9\AndroidManifest.xml:17:1-59:12
 MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\b264911f7c5ce769f697ddbb75494875\AndroidManifest.xml:2:1-17:12
@@ -27,9 +31,12 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Aslm\.gradle\cach
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\79e530a3fd766dfa62867ff18b3ddf71\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\5205183dfc4468e9cdac1d8152ab2188\AndroidManifest.xml:17:1-22:12
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\42683ddfc84e76d30eccffc2942fb491\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4df95b5ca2dacae3d94984e4c2c828f6\AndroidManifest.xml:2:1-12:12
+MERGED from [com.craftman.cardform:cardform:0.0.2] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\b1d335c3c392dcf676174bffe8b47024\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\45f101986bd5fef4365bf4b58fb6da54\AndroidManifest.xml:2:1-13:12
+MERGED from [info.hoang8f:android-segmented:1.0.6] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\ca96893f4a6d32eae28e22087847bdab\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\bfb7b508267b1099a10860f7dab04f38\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4e96faf92fcab5ed23dcf814b128abf3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4df95b5ca2dacae3d94984e4c2c828f6\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\b26821a3a1bd88dc194cbc12358082ca\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\a7e65ef3853fbf6d2134eab4be999c37\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\36e84fa5e2506c64fbefe98182556594\AndroidManifest.xml:17:1-22:12
@@ -66,53 +73,67 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Aslm\.gradle\caches\transforms
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\bcdb1cb4fab9d426cfedbf38e4620aaf\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\de86e7ee55ed0df800fd73f74a80cc23\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\e716c370a28b24d0e5e3de8ddd4452e1\AndroidManifest.xml:2:1-11:12
-INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-83:12
 	package
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:4:11-45
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:4:5-39
 		INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml
 		INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-83:12
 		INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:3:11-57
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:1-83:12
 		INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:6:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:6:5-78
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\601a25af295e25fd8e769eaa5a2bac85\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\601a25af295e25fd8e769eaa5a2bac85\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\1bccdfacdcd001e0d5b0064bd05916a9\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\1bccdfacdcd001e0d5b0064bd05916a9\AndroidManifest.xml:22:5-79
 MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.20.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\b7331c61fd1b5df2de83f7d79a647822\AndroidManifest.xml:20:5-79
 MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.20.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\b7331c61fd1b5df2de83f7d79a647822\AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.INTERNET
-ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:7:5-66
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:8:5-67
 MERGED from [me.tylerbwong:allaboard:1.1.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\1d6179dd19fc78143698140d3b904d9f\AndroidManifest.xml:11:5-67
 MERGED from [me.tylerbwong:allaboard:1.1.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\1d6179dd19fc78143698140d3b904d9f\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\601a25af295e25fd8e769eaa5a2bac85\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\601a25af295e25fd8e769eaa5a2bac85\AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\1bccdfacdcd001e0d5b0064bd05916a9\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\1bccdfacdcd001e0d5b0064bd05916a9\AndroidManifest.xml:23:5-67
 MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.20.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\b7331c61fd1b5df2de83f7d79a647822\AndroidManifest.xml:19:5-67
 MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.20.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\b7331c61fd1b5df2de83f7d79a647822\AndroidManifest.xml:19:5-67
 	android:name
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:7:22-64
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:8:22-64
 application
-ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:9:5-41:19
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:10:5-81:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\efd8d63dd39455ab2845092ab9e0049e\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\efd8d63dd39455ab2845092ab9e0049e\AndroidManifest.xml:22:5-20
+MERGED from [com.stepstone.stepper:material-stepper:4.3.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\2b1a6d44a77f8ebe38b157489cbce60d\AndroidManifest.xml:25:5-20
+MERGED from [com.stepstone.stepper:material-stepper:4.3.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\2b1a6d44a77f8ebe38b157489cbce60d\AndroidManifest.xml:25:5-20
+MERGED from [com.github.AnyChart:AnyChart-Android:1.1.2] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\9abb83b30d6556fa0601b776209b326d\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.AnyChart:AnyChart-Android:1.1.2] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\9abb83b30d6556fa0601b776209b326d\AndroidManifest.xml:11:5-15:19
 MERGED from [com.airbnb.android:lottie:3.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\59547f3b16bfdc805b632668c140e5b6\AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:3.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\59547f3b16bfdc805b632668c140e5b6\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\511baa42096b8f19f9658a45eb7f6ddb\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\511baa42096b8f19f9658a45eb7f6ddb\AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\131bd36fde0beac27413f475896bdf1d\AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\131bd36fde0beac27413f475896bdf1d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\601a25af295e25fd8e769eaa5a2bac85\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\601a25af295e25fd8e769eaa5a2bac85\AndroidManifest.xml:30:5-20
 MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4ee1d3883dfc6868af50758c5ffe57ba\AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4ee1d3883dfc6868af50758c5ffe57ba\AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\1bccdfacdcd001e0d5b0064bd05916a9\AndroidManifest.xml:28:5-57:19
@@ -135,6 +156,10 @@ MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Aslm\.gradle\caches\tr
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\42683ddfc84e76d30eccffc2942fb491\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4df95b5ca2dacae3d94984e4c2c828f6\AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4df95b5ca2dacae3d94984e4c2c828f6\AndroidManifest.xml:10:5-20
+MERGED from [com.craftman.cardform:cardform:0.0.2] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\b1d335c3c392dcf676174bffe8b47024\AndroidManifest.xml:11:5-15:19
+MERGED from [com.craftman.cardform:cardform:0.0.2] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\b1d335c3c392dcf676174bffe8b47024\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\45f101986bd5fef4365bf4b58fb6da54\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\45f101986bd5fef4365bf4b58fb6da54\AndroidManifest.xml:7:5-11:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\9252c411a8aef30b451b1aa66f3a2285\AndroidManifest.xml:22:5-28:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\9252c411a8aef30b451b1aa66f3a2285\AndroidManifest.xml:22:5-28:19
 MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.20.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\b7331c61fd1b5df2de83f7d79a647822\AndroidManifest.xml:22:5-20
@@ -148,63 +173,143 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Aslm\.gradle\c
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\2b26caa86ad37b2be1a4ce0af8206cd9\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:14:13-39
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:12:13-45
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:13:9-41
 	tools:ignore
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:16:13-52
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:17:9-48
 	android:roundIcon
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:13:13-58
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:11:13-47
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:10:13-39
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:15:13-44
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.example.finalproject.Login.SignUpActivity.Category.CategoryActivity
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:18:9-93
+	android:name
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:18:19-81
+activity#com.example.finalproject.Login.SignUpActivity.Nationality.NationalityActivity
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:19:9-90
+	android:name
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:19:19-87
+activity#com.example.finalproject.Login.SignUpActivity.MapActivity
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:20:9-23:52
+	android:screenOrientation
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:23:13-49
+	android:configChanges
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:22:13-48
+	android:name
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:21:13-61
+activity#com.example.finalproject.Fragments.CashOut.StepperFragments.CreateWalletActivity
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:24:9-27:52
+	android:screenOrientation
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:27:13-49
+	android:configChanges
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:26:13-48
+	android:name
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:25:13-84
+activity#com.example.finalproject.ChargeActivity
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:28:9-31:52
+	android:screenOrientation
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:31:13-49
+	android:configChanges
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:30:13-48
+	android:name
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:29:13-43
+activity#com.example.finalproject.ChargeWalletActivity
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:32:9-35:52
+	android:screenOrientation
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:35:13-49
+	android:configChanges
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:34:13-48
+	android:name
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:33:13-49
 activity#com.example.finalproject.Home.HomeActivity
-ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:17:9-21:20
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:36:9-41:59
+	android:screenOrientation
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:40:13-49
 	android:label
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:19:17-60
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:39:13-56
+	android:configChanges
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:38:13-48
 	android:theme
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:20:17-60
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:41:13-56
 	android:name
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:18:17-50
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:37:13-46
 activity#com.example.finalproject.Login.SignUpActivity.SignUpActivity
-ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:22:9-23:20
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:42:9-45:52
+	android:screenOrientation
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:45:13-49
+	android:configChanges
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:44:13-48
 	android:name
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:22:19-70
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:43:13-64
 activity#com.example.finalproject.Login.SignInActivity.SignInActivity
-ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:24:9-25:20
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:46:9-49:52
+	android:screenOrientation
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:49:13-49
+	android:configChanges
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:48:13-48
 	android:name
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:24:19-70
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:47:13-64
 activity#com.example.finalproject.OnBoarding.OnBoardingActivity
-ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:26:9-27:20
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:50:9-53:52
+	android:screenOrientation
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:53:13-49
+	android:configChanges
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:52:13-48
 	android:name
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:26:19-64
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:51:13-58
 activity#com.example.finalproject.Splash.SplashActivity
-ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:28:9-34:20
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:54:9-63:20
+	android:screenOrientation
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:57:13-49
+	android:configChanges
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:56:13-48
 	android:name
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:28:19-56
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:55:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:58:13-62:29
 action#android.intent.action.MAIN
-ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:30:17-68
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:59:17-69
 	android:name
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:59:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:32:17-76
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:61:17-77
 	android:name
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:61:27-74
 activity#com.example.finalproject.MainActivity
-ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:35:9-36:20
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:64:9-67:52
+	android:screenOrientation
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:67:13-49
+	android:configChanges
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:66:13-48
 	android:name
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:35:19-47
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:65:13-41
 meta-data#preloaded_fonts
-ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:38:9-40:60
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:69:9-71:57
 	android:resource
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:40:17-58
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:71:13-54
 	android:name
-		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:39:17-47
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:70:13-43
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:72:9-74:71
+	android:value
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:74:13-68
+	android:name
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:73:13-58
+meta-data#com.google.android.gms.version
+ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:75:9-77:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\62412b4ccde5e94ac8703486cb2c9312\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\62412b4ccde5e94ac8703486cb2c9312\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\45f101986bd5fef4365bf4b58fb6da54\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\45f101986bd5fef4365bf4b58fb6da54\AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:77:13-66
+	android:name
+		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml:76:13-58
 uses-sdk
 INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml
@@ -219,6 +324,12 @@ MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\Aslm\.gradle\cach
 MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\137193873c2eeeb79ad71c352594a7c9\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\efd8d63dd39455ab2845092ab9e0049e\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\efd8d63dd39455ab2845092ab9e0049e\AndroidManifest.xml:20:5-44
+MERGED from [com.stepstone.stepper:material-stepper:4.3.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\2b1a6d44a77f8ebe38b157489cbce60d\AndroidManifest.xml:21:5-23:41
+MERGED from [com.stepstone.stepper:material-stepper:4.3.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\2b1a6d44a77f8ebe38b157489cbce60d\AndroidManifest.xml:21:5-23:41
+MERGED from [com.github.AnyChart:AnyChart-Android:1.1.2] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\9abb83b30d6556fa0601b776209b326d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.AnyChart:AnyChart-Android:1.1.2] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\9abb83b30d6556fa0601b776209b326d\AndroidManifest.xml:7:5-9:41
+MERGED from [br.com.simplepass:loading-button-android:2.1.5] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\a8dbdc98610c1bf45c7730f22cacff1c\AndroidManifest.xml:7:5-9:41
+MERGED from [br.com.simplepass:loading-button-android:2.1.5] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\a8dbdc98610c1bf45c7730f22cacff1c\AndroidManifest.xml:7:5-9:41
 MERGED from [com.airbnb.android:lottie:3.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\59547f3b16bfdc805b632668c140e5b6\AndroidManifest.xml:5:5-7:41
 MERGED from [com.airbnb.android:lottie:3.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\59547f3b16bfdc805b632668c140e5b6\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\403b2513882ce331c09f00c60d28afbb\AndroidManifest.xml:20:5-44
@@ -229,6 +340,8 @@ MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Aslm\.gradl
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\131bd36fde0beac27413f475896bdf1d\AndroidManifest.xml:20:5-44
 MERGED from [com.github.parse-community.Parse-SDK-Android:fcm:1.20.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\f4add25f78eb657b9814e4faaebccc03\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.parse-community.Parse-SDK-Android:fcm:1.20.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\f4add25f78eb657b9814e4faaebccc03\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\601a25af295e25fd8e769eaa5a2bac85\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\601a25af295e25fd8e769eaa5a2bac85\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4ee1d3883dfc6868af50758c5ffe57ba\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4ee1d3883dfc6868af50758c5ffe57ba\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\1bccdfacdcd001e0d5b0064bd05916a9\AndroidManifest.xml:20:5-44
@@ -255,12 +368,18 @@ MERGED from [androidx.navigation:navigation-fragment-ktx:2.0.0] C:\Users\Aslm\.g
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\5205183dfc4468e9cdac1d8152ab2188\AndroidManifest.xml:20:5-44
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\42683ddfc84e76d30eccffc2942fb491\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\42683ddfc84e76d30eccffc2942fb491\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4df95b5ca2dacae3d94984e4c2c828f6\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4df95b5ca2dacae3d94984e4c2c828f6\AndroidManifest.xml:6:5-8:41
+MERGED from [com.craftman.cardform:cardform:0.0.2] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\b1d335c3c392dcf676174bffe8b47024\AndroidManifest.xml:7:5-9:41
+MERGED from [com.craftman.cardform:cardform:0.0.2] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\b1d335c3c392dcf676174bffe8b47024\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\45f101986bd5fef4365bf4b58fb6da54\AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\45f101986bd5fef4365bf4b58fb6da54\AndroidManifest.xml:5:5-43
+MERGED from [info.hoang8f:android-segmented:1.0.6] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\ca96893f4a6d32eae28e22087847bdab\AndroidManifest.xml:7:5-9:41
+MERGED from [info.hoang8f:android-segmented:1.0.6] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\ca96893f4a6d32eae28e22087847bdab\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\bfb7b508267b1099a10860f7dab04f38\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\bfb7b508267b1099a10860f7dab04f38\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common-ktx:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4e96faf92fcab5ed23dcf814b128abf3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common-ktx:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4e96faf92fcab5ed23dcf814b128abf3\AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4df95b5ca2dacae3d94984e4c2c828f6\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4df95b5ca2dacae3d94984e4c2c828f6\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\b26821a3a1bd88dc194cbc12358082ca\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\b26821a3a1bd88dc194cbc12358082ca\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\a7e65ef3853fbf6d2134eab4be999c37\AndroidManifest.xml:20:5-44
@@ -343,6 +462,12 @@ INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\Android
 		INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml
 		ADDED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml
 		INJECTED from D:\ITI_Course_Content\Final_project\WorkSpace\app\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\601a25af295e25fd8e769eaa5a2bac85\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\601a25af295e25fd8e769eaa5a2bac85\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\601a25af295e25fd8e769eaa5a2bac85\AndroidManifest.xml:28:9-32
 service#com.google.firebase.messaging.FirebaseMessagingService
 ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\4ee1d3883dfc6868af50758c5ffe57ba\AndroidManifest.xml:28:9-34:19
 	android:exported
@@ -423,12 +548,6 @@ ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Aslm\.gra
 		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\504045e22566c2e409db5849d63bc6cb\AndroidManifest.xml:26:13-72
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\504045e22566c2e409db5849d63bc6cb\AndroidManifest.xml:24:13-79
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\62412b4ccde5e94ac8703486cb2c9312\AndroidManifest.xml:23:9-25:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\62412b4ccde5e94ac8703486cb2c9312\AndroidManifest.xml:25:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\62412b4ccde5e94ac8703486cb2c9312\AndroidManifest.xml:24:13-58
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Aslm\.gradle\caches\transforms-2\files-2.1\9252c411a8aef30b451b1aa66f3a2285\AndroidManifest.xml:23:9-27:43
 	android:authorities

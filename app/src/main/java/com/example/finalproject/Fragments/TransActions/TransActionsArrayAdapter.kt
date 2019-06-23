@@ -21,7 +21,6 @@ class TransActionsArrayAdapter(var context: Context,
 
     override fun getItemCount(): Int {
         return transActionsData.size
-
     }
 
     override fun onBindViewHolder(holder: myViewHolder, position: Int) {
