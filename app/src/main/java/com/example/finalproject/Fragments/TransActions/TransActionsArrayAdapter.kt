@@ -29,7 +29,7 @@ class TransActionsArrayAdapter(var context: Context,
         holder.pilgrimUserName.text = data.pilgrimUsername
         holder.Time.text = date
         holder.money.text = "$"+(data.moneyPaid / 100.0 ).toString()
-        Glide.with(context).load(R.drawable.transaction).into(holder.image)
+        Glide.with(context).load(R.drawable.getmony).into(holder.image)
     }
 
 
